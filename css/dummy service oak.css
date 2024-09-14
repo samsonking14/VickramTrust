@@ -1,0 +1,5781 @@
+/* done */
+/* @media screen and (max-width: 344px) {
+  .oaktreesection {
+    height: 69%;
+  }
+  .palmtreesection {
+    height: 75%;
+  }
+  .oaktree4pointdiv {
+    top: 30%;
+  }
+  .oaktree3pointdiv {
+    top: 30%;
+  }
+  .future1pointdiv {
+    top: 30%;
+    left: 5%;
+  }
+  .future3pointdiv {
+    left: 5%;
+  }
+  .water1pointdiv {
+    top: 30%;
+  }
+  .water2pointdiv {
+    top: 30%;
+  }
+  .impact1pointdiv {
+    top: 30%;
+  }
+  .benefits5pointdiv {
+    top: 30%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .oaktreesection {
+    height: 80%;
+  }
+  .conclusionoaktreediv2 {
+    top: 31.5%;
+  }
+  .benefitepointdiv {
+    top: 56.5%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .oaktreesection {
+    height: 90%;
+  }
+  .oaktree1point {
+    top: 69%;
+  }
+  .oaktree1pointdiv {
+    display: none;
+    top: 30%;
+  }
+  .oaktree2point {
+    top: 68%;
+  }
+  .oaktree2pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .oaktree3point {
+    top: 65%;
+    left: 50%;
+  }
+  .oaktree3pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .oaktree4point {
+    top: 62%;
+    left: 40%;
+  }
+  .oaktree4pointdiv {
+    display: none;
+    top: 32%;
+  }
+  .oaktree5point {
+    top: 63%;
+    left: 30%;
+  }
+  .oaktree5pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future1point {
+    top: 65%;
+    left: 50%;
+  }
+  .future1pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future2point {
+    top: 63%;
+    left: 40%;
+  }
+  .future2pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future3point {
+    top: 62%;
+    left: 30%;
+  }
+  .future3pointdiv {
+    display: none;
+    top: 37%;
+  }
+  .water1point {
+    top: 70%;
+    left: 50%;
+  }
+  .water1pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .water2point {
+    top: 65%;
+    left: 40%;
+  }
+  .water2pointdiv {
+    display: none;
+    top: 38%;
+  }
+  .water3point {
+    top: 60%;
+    left: 50%;
+  }
+  .water3pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .impact1point {
+    top: 68%;
+    left: 50%;
+  }
+  .impact1pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .impact2point {
+    top: 67%;
+    left: 40%;
+  }
+  .impact2pointdiv {
+    display: none;
+    top: 42%;
+    height: 120px;
+  }
+  .impact3point {
+    top: 66%;
+    left: 30%;
+  }
+  .impact3pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .impact4point {
+    top: 59%;
+    left: 30%;
+  }
+  .impact4pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .impact5point {
+    top: 58%;
+    left: 40%;
+  }
+  .impact5pointdiv {
+    display: none;
+    top: 32%;
+  }
+  .impact6point {
+    top: 62%;
+    left: 50%;
+  }
+  .impact6pointdiv {
+    display: none;
+    top: 33%;
+  }
+  .remove1point {
+    top: 70%;
+  }
+  .remove1pointdiv {
+    display: none;
+    top: 50%;
+  }
+  .remove2point {
+    top: 68%;
+  }
+  .remove2pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .remove3point {
+    top: 62%;
+  }
+  .remove3pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .remove4point {
+    top: 64%;
+  }
+  .remove4pointdiv {
+    display: none;
+    top: 44%;
+  }
+  .remove5point {
+    top: 68%;
+  }
+  .remove5pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .remove6point {
+    top: 58%;
+    right: 50%;
+  }
+  .remove6pointdiv {
+    display: none;
+    top: 32%;
+  }
+  .benefits1point {
+    top: 70%;
+    left: 50%;
+  }
+  .benefits1pointdiv {
+    display: none;
+    top: 49%;
+  }
+  .benefits2point {
+    top: 69%;
+    left: 40%;
+  }
+  .benefits2pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .benefits3point {
+    top: 68%;
+    left: 30%;
+  }
+  .benefits3pointdiv {
+    display: none;
+    top: 49%;
+  }
+  .benefits4point {
+    top: 62%;
+    left: 36%;
+  }
+  .benefits4pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .benefits5point {
+    top: 65%;
+    left: 50%;
+  }
+  .benefits5pointdiv {
+    display: none;
+    top: 43%;
+  }
+  .benefits6point {
+    top: 60%;
+    left: 44%;
+  }
+  .benefits6pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .conclusionoaktreediv2 {
+    display: none;
+    top: 32%;
+  }
+  .benefitepointdiv {
+    display: none;
+    top: 54%;
+  }
+  .palmtreesection {
+    top: 120%;
+    height: 96%;
+  }
+  .palmtree {
+    height: 300px;
+  }
+  .benefit1point {
+    top: 80%;
+  }
+  .benefit1pointdiv {
+    display: none;
+    bottom: 2%;
+  }
+  .benefit2point {
+    top: 70%;
+  }
+  .benefit2pointdiv {
+    display: none;
+    bottom: 10%;
+    left: 10%;
+  }
+  .benefit3point {
+    top: 62%;
+    left: 45%;
+  }
+  .benefit3pointdiv {
+    display: none;
+    bottom: 15%;
+    left: 3%;
+  }
+  .benefit4point {
+    top: 65%;
+    left: 33%;
+  }
+  .benefit4pointdiv {
+    display: none;
+    bottom: 15%;
+    left: 5%;
+  }
+  .benefit5point {
+    top: 65%;
+    left: 60%;
+  }
+  .benefit5pointdiv {
+    display: none;
+    bottom: 11%;
+    left: 7%;
+  }
+  .uses1point {
+    top: 80%;
+  }
+  .uses1pointdiv {
+    display: none;
+    bottom: 3%;
+  }
+  .uses2point {
+    top: 75%;
+  }
+  .uses2pointdiv {
+    display: none;
+    bottom: 10%;
+    left: 10%;
+  }
+  .uses3point {
+    top: 70%;
+  }
+  .uses3pointdiv {
+    display: none;
+    bottom: 10%;
+    left: 3%;
+  }
+  .uses4point {
+    top: 65%;
+  }
+  .uses4pointdiv {
+    display: none;
+    bottom: 10%;
+    left: 5%;
+  }
+  .uses5point {
+    top: 65%;
+    left: 60%;
+  }
+  .uses5pointdiv {
+    display: none;
+    bottom: 11%;
+    left: 7%;
+  }
+  .uses6point {
+    top: 65%;
+    left: 45%;
+  }
+  .uses6pointdiv {
+    display: none;
+    bottom: 10%;
+    left: 7%;
+  }
+  .uses7point {
+    top: 60%;
+    left: 45%;
+  }
+  .uses7pointdiv {
+    display: none;
+    bottom: 11%;
+    left: 3%;
+  }
+  .environ1point {
+    top: 70%;
+  }
+  .environ1pointdiv {
+    display: none;
+    bottom: 4%;
+  }
+  .environ2point {
+    top: 67%;
+  }
+  .environ2pointdiv {
+    display: none;
+    bottom: 2%;
+    left: 5%;
+  }
+  .environ3point {
+    top: 60%;
+  }
+  .environ3pointdiv {
+    display: none;
+    bottom: 7%;
+    left: 3%;
+  }
+  .environ4point {
+    top: 65%;
+  }
+  .environ4pointdiv {
+    display: none;
+    bottom: 9%;
+    left: 5%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .oaktree1pointdiv {
+    display: none;
+    top: 30%;
+  }
+  .oaktree3pointdiv {
+    display: none;
+    top: 36%;
+  }
+  .conclusionoaktreediv2 {
+    top: 32%;
+  }
+  .benefitepointdiv {
+    top: 54%;
+  }
+  .benefit3point {
+    top: 49%;
+    left: 46%;
+  }
+  .benefit4point {
+    top: 56%;
+  }
+  .uses4point {
+    top: 59%;
+  }
+  .uses5point {
+    top: 53%;
+  }
+  .uses6point {
+    top: 59%;
+    left: 59%;
+  }
+  .uses7point {
+    top: 53%;
+  }
+  .environ2point {
+    top: 56%;
+  }
+}
+@media screen and (max-width: 412px) {
+  .oaktreesection {
+    height: 70%;
+  }
+  .oaktree1pointdiv {
+    display: none;
+    top: 70%;
+  }
+  .oaktree2pointdiv {
+    display: none;
+    top: 70%;
+  }
+  .future1point {
+    top: 65%;
+    left: 50%;
+  }
+  .future1pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future2point {
+    top: 63%;
+    left: 40%;
+  }
+  .future2pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future3point {
+    top: 62%;
+    left: 30%;
+  }
+  .future3pointdiv {
+    display: none;
+    top: 37%;
+  }
+  .water1point {
+    top: 65%;
+    left: 50%;
+  }
+  .water1pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .water2point {
+    top: 65%;
+    left: 40%;
+  }
+  .water2pointdiv {
+    display: none;
+    top: 38%;
+  }
+  .water3point {
+    top: 57%;
+    left: 45%;
+  }
+  .water3pointdiv {
+    display: none;
+    top: 68%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .oaktreesection {
+    height: 75%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .oaktreesection {
+    height: 70%;
+  }
+  .oaktree1point {
+    top: 65%;
+  }
+  .oaktree1pointdiv {
+    display: none;
+    top: 37%;
+  }
+  .oaktree2point {
+    top: 65%;
+    left: 35%;
+  }
+  .oaktree2pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .oaktree3point {
+    top: 65%;
+    left: 55%;
+  }
+  .oaktree3pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .oaktree4point {
+    top: 58%;
+    left: 40%;
+  }
+  .oaktree4pointdiv {
+    display: none;
+    top: 65%;
+  }
+  .oaktree5point {
+    top: 58%;
+    left: 50%;
+  }
+  .oaktree5pointdiv {
+    display: none;
+    top: 65%;
+  }
+  .future1point {
+    top: 65%;
+    left: 50%;
+  }
+  .future1pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future2point {
+    top: 63%;
+    left: 40%;
+  }
+  .future2pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future3point {
+    top: 62%;
+    left: 30%;
+  }
+  .future3pointdiv {
+    display: none;
+    top: 37%;
+  }
+  .water1point {
+    top: 65%;
+    left: 50%;
+  }
+  .water1pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .water2point {
+    top: 65%;
+    left: 40%;
+  }
+  .water2pointdiv {
+    display: none;
+    top: 38%;
+  }
+  .water3point {
+    top: 57%;
+    left: 45%;
+  }
+  .water3pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .impact1point {
+    top: 68%;
+    left: 50%;
+  }
+  .impact1pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .impact2point {
+    top: 67%;
+    left: 40%;
+  }
+  .impact2pointdiv {
+    display: none;
+    top: 42%;
+    height: 120px;
+  }
+  .impact3point {
+    top: 66%;
+    left: 30%;
+  }
+  .impact3pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .impact4point {
+    top: 59%;
+    left: 30%;
+  }
+  .impact4pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .impact5point {
+    top: 58%;
+    left: 40%;
+  }
+  .impact5pointdiv {
+    display: none;
+    top: 32%;
+  }
+  .impact6point {
+    top: 62%;
+    left: 50%;
+  }
+  .impact6pointdiv {
+    display: none;
+    top: 33%;
+  }
+  .remove1point {
+    top: 70%;
+  }
+  .remove1pointdiv {
+    display: none;
+    top: 50%;
+  }
+  .remove2point {
+    top: 68%;
+  }
+  .remove2pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .remove3point {
+    top: 62%;
+  }
+  .remove3pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .remove4point {
+    top: 64%;
+  }
+  .remove4pointdiv {
+    display: none;
+    top: 44%;
+  }
+  .remove5point {
+    top: 68%;
+  }
+  .remove5pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .remove6point {
+    top: 58%;
+    right: 50%;
+  }
+  .remove6pointdiv {
+    display: none;
+    top: 32%;
+  }
+  .benefits1point {
+    top: 68%;
+    left: 55%;
+  }
+  .benefits1pointdiv {
+    display: none;
+    top: 49%;
+  }
+  .benefits2point {
+    top: 69%;
+    left: 40%;
+  }
+  .benefits2pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .benefits3point {
+    top: 68%;
+    left: 30%;
+  }
+  .benefits3pointdiv {
+    display: none;
+    top: 49%;
+  }
+  .benefits4point {
+    top: 62%;
+    left: 36%;
+  }
+  .benefits4pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .benefits5point {
+    top: 60%;
+    left: 55%;
+  }
+  .benefits5pointdiv {
+    display: none;
+    top: 43%;
+  }
+  .benefits6point {
+    top: 60%;
+    left: 44%;
+  }
+  .benefits6pointdiv {
+    display: none;
+    top: 40%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .oaktreesection {
+    top: 110%;
+    height: 70%;
+  }
+  .oaktreebackbtn {
+    top: -10%;
+  }
+  .oaktreeclosebtn {
+    top: -6%;
+  }
+  .future1point {
+    top: 63%;
+  }
+  .future2point {
+    top: 64%;
+  }
+  .future3point {
+    top: 57%;
+  }
+  .future3pointdiv {
+    top: 55%;
+    left: 55%;
+  }
+  .conclusionoaktreediv2 {
+    top: 26.5%;
+  }
+  .benefitepointdiv {
+    top: 56.5%;
+  }
+  .palmtreesection {
+    top: 110%;
+    height: 75%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .oaktreesection {
+    top: 80%;
+  }
+  .oaktree1point {
+    top: 55%;
+  }
+  .oaktree2point {
+    top: 55%;
+  }
+  .oaktree3point {
+    top: 45%;
+  }
+  .oaktree4point {
+    top: 45%;
+  }
+  .oaktree5point {
+    top: 38%;
+    left: 48%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .oaktreesection {
+    top: 65%;
+    height: 40%;
+  }
+  .palmtreesection {
+    top: 65%;
+    height: 40%;
+  }
+}
+@media screen and (max-width: 853px) {
+  .oaktreesection {
+    top: 60%;
+    height: 40%;
+  }
+  .palmtreesection {
+    top: 60%;
+    height: 40%;
+  }
+}
+@media screen and (max-width: 912px) {
+  .oaktreesection {
+    top: 65%;
+    height: 35%;
+  }
+  .palmtreesection {
+    top: 65%;
+    height: 35%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .oaktreesection {
+    top: 60%;
+    height: 35%;
+  }
+  .oaktree1point {
+    top: 64%;
+  }
+  .oaktree1pointdiv {
+    width: 41%;
+    top: 46%;
+  }
+  .oaktree3pointdiv {
+    left: 59%;
+    top: 38%;
+  }
+  .oaktree4pointdiv {
+    width: 35%;
+    left: 5%;
+  }
+  .future1pointdiv {
+    left: 60%;
+    top: 38%;
+  }
+  .future2pointdiv {
+    left: 6%;
+    top: 46%;
+  }
+  .palmtreesection {
+    top: 60%;
+    height: 35%;
+  }
+  .palmtreeclosebtn {
+    top: -6%;
+  }
+  .palmtreebackbtn {
+    top: -10%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .oaktreesection {
+    height: 60%;
+  }
+  .oaktree1pointdiv {
+    width: 40%;
+  }
+  .palmtreesection {
+    height: 60%;
+  }
+} */
+@media screen and (max-width: 1280px) {
+  .oaktreesection {
+    height: 60%;
+  }
+  .oaktree1pointdiv {
+    width: 40%;
+  }
+  .palmtreesection {
+    height: 60%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .oaktreesection {
+    top: 60%;
+    height: 35%;
+  }
+  .oaktree1point {
+    top: 64%;
+  }
+  .oaktree1pointdiv {
+    width: 41%;
+    top: 46%;
+  }
+  .oaktree3pointdiv {
+    left: 59%;
+    top: 38%;
+  }
+  .oaktree4pointdiv {
+    width: 35%;
+    left: 5%;
+  }
+  .future1pointdiv {
+    left: 60%;
+    top: 38%;
+  }
+  .future2pointdiv {
+    left: 6%;
+    top: 46%;
+  }
+  .palmtreesection {
+    top: 60%;
+    height: 35%;
+  }
+  .palmtreeclosebtn {
+    top: -6%;
+  }
+  .palmtreebackbtn {
+    top: -10%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container-2 {
+    max-width: 728px;
+  }
+
+  .navbar-wrapper-three {
+    justify-content: space-between;
+  }
+
+  .navbar-brand-three {
+    position: relative;
+  }
+
+  .nav-menu-wrapper-three {
+    background-color: #0000;
+    top: 70px;
+  }
+
+  .nav-menu-three {
+    background-color: #fff;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    box-shadow: 0 8px 50px #0000000d;
+  }
+
+  .nav-link {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .nav-dropdown-list.shadow-three.w--open {
+    position: absolute;
+  }
+
+  .menu-button {
+    padding: 12px;
+  }
+
+  .menu-button.w--open {
+    color: #fff;
+    background-color: #a6b1bf;
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: -40px;
+  }
+
+  .hero-split {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .team-slide-wrapper {
+    width: 47%;
+    margin-right: 6%;
+  }
+
+  .clients-quote-two {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .gallery-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pricing-wrapper {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .pricing-card {
+    width: 350px;
+  }
+
+  .footer-wrapper-two {
+    flex-wrap: wrap;
+  }
+
+  .footer-form {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .footer-form-container {
+    max-width: 350px;
+  }
+
+  .container-3 {
+    max-width: 728px;
+  }
+
+  .navbar-wrapper-three-2 {
+    justify-content: space-between;
+  }
+
+  .navbar-brand-three-2 {
+    position: relative;
+  }
+
+  .nav-menu-wrapper-three-2 {
+    background-color: #0000;
+    top: 70px;
+  }
+
+  .nav-menu-three-2 {
+    background-color: #fff;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    box-shadow: 0 8px 50px #0000000d;
+  }
+
+  .nav-link-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .nav-dropdown-list-2.shadow-three.w--open {
+    position: absolute;
+  }
+
+  .menu-button-2 {
+    padding: 12px;
+  }
+
+  .menu-button-2.w--open {
+    color: #fff;
+    background-color: #a6b1bf;
+  }
+
+  .container-5 {
+    max-width: 728px;
+  }
+
+  .hero-wrapper-2 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: -40px;
+  }
+
+  .hero-split-2 {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .container-7 {
+    max-width: 728px;
+  }
+
+  .navbar-wrapper-three-3 {
+    justify-content: space-between;
+  }
+
+  .navbar-brand-three-3 {
+    position: relative;
+  }
+
+  .nav-menu-wrapper-three-3 {
+    background-color: #0000;
+    top: 70px;
+  }
+
+  .nav-menu-three-3 {
+    background-color: #fff;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    box-shadow: 0 8px 50px #0000000d;
+  }
+
+  .nav-link-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .nav-dropdown-list-3.shadow-three.w--open {
+    position: absolute;
+  }
+
+  .menu-button-3 {
+    padding: 12px;
+  }
+
+  .menu-button-3.w--open {
+    color: #fff;
+    background-color: #a6b1bf;
+  }
+
+  .div-block-14 {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  .navbar-2 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .brand {
+    margin-left: -40px;
+    margin-right: 0;
+  }
+
+  .container-8 {
+    width: 85%;
+    max-width: 100%;
+    display: block;
+  }
+
+  .navlink {
+    width: 50%;
+    font-size: 15px;
+    display: block;
+  }
+
+  .navlink:hover {
+    color: #000;
+  }
+
+  .nav-menu {
+    box-sizing: border-box;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    color: #fff;
+    background-color: #2b6797f0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    display: flex;
+    position: absolute;
+  }
+
+  .section-5 {
+    height: 1700px;
+  }
+
+  .cell-3 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .quick-stack-4 {
+    align-self: auto;
+  }
+
+  .menu-button-4 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 0;
+    font-size: 50px;
+    display: none;
+    position: relative;
+  }
+
+  .menu-button-4.w--open {
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .image-4 {
+    margin-left: auto;
+  }
+
+  .icon {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    position: static;
+  }
+
+  .section-6 {
+    height: 1200px;
+  }
+
+  .cell-5 {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .heading-19 {
+    margin-bottom: 10px;
+  }
+
+  .paragraph-7 {
+    margin-top: 13px;
+  }
+
+  .quick-stack-6 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 500px;
+  }
+
+  .cell-6 {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    padding-top: 45px;
+    display: flex;
+  }
+
+  .cell-9,
+  .cell-10,
+  .cell-11 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-5 {
+    vertical-align: baseline;
+    max-width: 100%;
+  }
+
+  .image-6 {
+    order: -1;
+  }
+
+  .upcomingsection,
+  .upcomingcontainer {
+    height: 1600px;
+  }
+
+  .upcomingnaviagtion {
+    display: flex;
+  }
+
+  .upcomingimg {
+    width: 200px;
+    height: 150px;
+  }
+
+  .herocontainer {
+    width: 100%;
+    line-height: 20px;
+  }
+
+  .herotext {
+    justify-content: center;
+    align-items: center;
+    margin-top: 295px;
+    margin-left: 92px;
+  }
+
+  .heroh1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .herop {
+    margin-right: 0;
+    font-size: 18px;
+  }
+
+  .ourmissionvisiongrid {
+    margin-bottom: 140px;
+  }
+
+  .image-20 {
+    margin-right: 22px;
+  }
+
+  .paragraph-11,
+  .paragraph-12 {
+    font-size: 15px;
+  }
+
+  .heading-46 {
+    font-size: 30px;
+  }
+
+  .heading-47 {
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+  }
+
+  .cell-43 {
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .cell-44 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recenteventsection {
+    height: 1400px;
+  }
+
+  .recenteventcontainer {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recenteventgrid {
+    margin-top: 0;
+  }
+
+  .recenteventgrid2,
+  .recenteventdropdownbtnfaq {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .cell-51 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .staticssection,
+  .staticscontainer {
+    height: 300px;
+  }
+
+  .cell-75 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell-76 {
+    flex-flow: row;
+    justify-content: space-around;
+    font-size: 10px;
+  }
+
+  .footerlink {
+    text-decoration: none;
+  }
+
+  .cell-78 {
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .paragraph-16 {
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    display: flex;
+  }
+
+  .membernames {
+    font-size: 30px;
+  }
+
+  .membersrole {
+    font-size: 18px;
+  }
+
+  .becomevolteersection {
+    height: 925px;
+  }
+
+  .div-block-28 {
+    overflow: visible;
+  }
+
+  .cell-85 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell-86 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .cell-87 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragraph-17 {
+    text-align: center;
+    align-self: auto;
+  }
+
+  .volunteerpara {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .memberdetailcontain {
+    width: 85%;
+    height: 450px;
+    margin-top: 250px;
+    margin-bottom: 0;
+    margin-left: 55px;
+  }
+
+  .div-block-30 {
+    height: 200px;
+  }
+
+  .cell-91 {
+    flex-flow: column;
+    display: flex;
+  }
+
+  .div-block-32 {
+    justify-content: center;
+    align-self: auto;
+    align-items: center;
+    display: flex;
+  }
+
+  .paragraph-18 {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  .cell-92 {
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .section-15 {
+    height: 625px;
+  }
+
+  .div-block-33 {
+    width: 75%;
+  }
+
+  .image-25 {
+    margin-left: 500px;
+  }
+
+  .cell-94 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .documentsection {
+    height: 800px;
+  }
+
+  .documentdiv {
+    width: 80%;
+  }
+
+  .documenttitle {
+    font-size: 30px;
+  }
+
+  .documentpara {
+    font-size: 16px;
+  }
+
+  .container-18 {
+    height: 410px;
+  }
+
+  .detailparadiv {
+    width: 90%;
+    height: auto;
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  .popupmember {
+    width: 70%;
+    margin-top: 0;
+    margin-left: 0;
+    inset: 83% 15% auto auto;
+  }
+
+  .closeblock {
+    top: -6%;
+    right: 4%;
+  }
+
+  .closeicon {
+    color: red;
+  }
+
+  .gallerysection {
+    height: 1400px;
+  }
+
+  .gallerydivblock {
+    column-count: 2;
+  }
+
+  .gallerydiv {
+    column-count: 2;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .collection-item {
+    flex-basis: 35%;
+  }
+
+  .collection-list-wrapper {
+    column-count: 2;
+  }
+
+  .cell-96,
+  .cell-97,
+  .cell-98,
+  .cell-99 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .collection-list-2 {
+    column-count: 2;
+  }
+
+  .image-28 {
+    margin-bottom: 10px;
+  }
+
+  .servicesection {
+    height: 775px;
+  }
+
+  .heading-66,
+  .servicetitle {
+    width: 70%;
+  }
+
+  .oaktreesection {
+    width: 91%;
+    max-width: 100%;
+    display: none;
+    left: 5%;
+  }
+
+  .contactsection {
+    height: 1400px;
+  }
+
+  .cell-105 {
+    display: flex;
+  }
+
+  .heading-68 {
+    margin-top: 0;
+  }
+
+  .recenteventpagesection {
+    height: 2500px;
+  }
+
+  .cell-116,
+  .cell-117,
+  .cell-118,
+  .cell-119 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading-76 {
+    font-size: 25px;
+  }
+
+  .quick-stack-23 {
+    align-self: auto;
+  }
+
+  .cell-120 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-5 {
+    font-size: 15px;
+  }
+
+  .heading-77,
+  .heading-78 {
+    font-size: 25px;
+  }
+
+  .cell-121 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell-122 {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .cell-123 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .eventtime1,
+  .eventtime2,
+  .eventplace1 {
+    margin-left: 0;
+  }
+
+  .image-36 {
+    width: 700px;
+    margin-left: 0;
+  }
+
+  .loginimg {
+    width: 80%;
+    height: auto;
+  }
+
+  .palmtree {
+    width: 50%;
+    height: 335px;
+    margin-top: 16px;
+  }
+
+  .oaktreeapplybtn {
+    inset: auto -5% 2% auto;
+  }
+
+  .palmtreesection {
+    width: 91%;
+    max-width: 100%;
+    margin-left: auto;
+    display: none;
+    bottom: -69%;
+    left: 4%;
+  }
+
+  .palmtreeclosebtn {
+    top: -7%;
+  }
+
+  .benefit1point {
+    display: none;
+    inset: 61% 0% auto 48%;
+  }
+
+  .benefit1pointdiv {
+    width: 26%;
+    height: auto;
+    display: none;
+    inset: auto 18% 20% auto;
+  }
+
+  .text-block-5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .benefit2point {
+    display: none;
+    bottom: 46%;
+  }
+
+  .benefit2pointdiv {
+    width: 30%;
+    display: none;
+    inset: auto auto 25% 9%;
+  }
+
+  .benefit3point {
+    display: none;
+  }
+
+  .benefit3pointdiv {
+    width: 39%;
+    display: none;
+    inset: auto 5% 25% auto;
+  }
+
+  .text-block-6 {
+    margin: 10px;
+  }
+
+  .benefit4pointdiv {
+    width: 32%;
+    display: none;
+    inset: auto auto 22% 8%;
+  }
+
+  .benefit5pointdiv {
+    width: 39%;
+    margin-left: auto;
+    display: none;
+    inset: auto 6% 20% auto;
+  }
+
+  .text-block-7 {
+    text-align: center;
+    margin-left: 11px;
+  }
+
+  .benefit5point {
+    display: none;
+    inset: 44% 0% 0% 58%;
+  }
+
+  .benefit4point {
+    display: none;
+    inset: 44% 0% 0% 41%;
+  }
+
+  .uses1point {
+    display: none;
+    bottom: 104.5px;
+  }
+
+  .uses2point {
+    display: none;
+    bottom: 153.5px;
+  }
+
+  .uses3point {
+    display: none;
+    bottom: 208.5px;
+  }
+
+  .uses4point,
+  .uses7point,
+  .uses5point,
+  .uses6point {
+    display: none;
+  }
+
+  .uses1pointdiv {
+    width: 26%;
+    display: none;
+    bottom: 22%;
+    left: auto;
+    right: 18%;
+  }
+
+  .uses2pointdiv {
+    display: none;
+    inset: 59% auto auto 19%;
+  }
+
+  .uses3pointdiv {
+    width: 30%;
+    display: none;
+    inset: auto 15% 23% auto;
+  }
+
+  .uses4pointdiv {
+    width: 26%;
+    display: none;
+    inset: auto auto 25% 15%;
+  }
+
+  .uses5pointdiv {
+    width: 28%;
+    display: none;
+    inset: auto auto 22% 15%;
+  }
+
+  .uses6pointdiv {
+    width: 31%;
+    display: none;
+    inset: auto 10% 25% auto;
+  }
+
+  .uses7pointdiv {
+    display: none;
+    inset: auto 44px 92px auto;
+  }
+
+  .environ2point {
+    display: none;
+    left: 41%;
+  }
+
+  .environ3point,
+  .environ1pointdiv {
+    display: none;
+  }
+
+  .environ3pointdiv {
+    left: 7%;
+  }
+
+  .environ4pointdiv {
+    right: 4%;
+  }
+
+  .conclusiondiv {
+    width: 63%;
+    height: auto;
+    display: none;
+    position: absolute;
+  }
+
+  .text-block-19 {
+    margin: 15px 10px;
+  }
+
+  .palmtreeapplybtn {
+    inset: auto 2% 2% auto;
+  }
+
+  .palmtreebackbtn {
+    top: -11%;
+  }
+
+  .oaktreebackbtn {
+    width: 50px;
+  }
+
+  .oaktreebtn2 {
+    left: 27%;
+  }
+
+  .oaktree-futurebtn {
+    right: 47%;
+  }
+
+  .oaktree-waterbtn {
+    right: 32%;
+  }
+
+  .oaktreeimpactbtn {
+    left: 27%;
+  }
+
+  .oaktreeremovebtn {
+    right: 47%;
+  }
+
+  .oaktreebenefitsbtn {
+    right: 32%;
+  }
+
+  .conclusionoaktreediv {
+    position: absolute;
+  }
+
+  .oaktree1pointdiv {
+    width: 40%;
+    top: 40%;
+  }
+
+  .oaktree2pointdiv {
+    width: 38%;
+  }
+
+  .oaktree3pointdiv {
+    width: 40%;
+    left: 56%;
+  }
+
+  .oaktree4pointdiv {
+    width: 36%;
+    left: 4%;
+  }
+
+  .oaktree5pointdiv {
+    width: 35%;
+    top: 47%;
+  }
+
+  .future3point {
+    top: 36%;
+  }
+
+  .future1pointdiv {
+    width: 37%;
+    top: 42%;
+  }
+
+  .future2pointdiv {
+    width: 34%;
+  }
+
+  .future3pointdiv {
+    width: 36%;
+  }
+
+  .water1pointdiv {
+    top: 41%;
+  }
+
+  .water3pointdiv {
+    width: 35%;
+    top: 48%;
+    right: 6%;
+  }
+
+  .benefitepointdiv {
+    width: 46%;
+    display: none;
+    top: 35%;
+    right: 2%;
+  }
+
+  .impact1pointdiv {
+    top: 46%;
+  }
+
+  .impact2pointdiv {
+    width: 32%;
+  }
+
+  .impact4pointdiv {
+    width: 34%;
+    left: 5%;
+  }
+
+  .impact5pointdiv {
+    width: 36%;
+  }
+
+  .impact6pointdiv {
+    width: 36%;
+    left: 5%;
+  }
+
+  .remove1pointdiv {
+    width: 35%;
+    right: 4%;
+  }
+
+  .remove2pointdiv {
+    width: 32%;
+    left: 6%;
+  }
+
+  .remove3pointdiv {
+    width: 33%;
+    left: 6%;
+  }
+
+  .remove4pointdiv {
+    width: 34%;
+    right: 5%;
+  }
+
+  .remove5pointdiv {
+    width: 35%;
+    top: 59%;
+  }
+
+  .remove6pointdiv {
+    width: 39%;
+    right: 2%;
+  }
+
+  .benefits2pointdiv {
+    width: 42%;
+    top: 67%;
+    left: 5%;
+  }
+
+  .benefits3pointdiv {
+    width: 35%;
+    top: 57%;
+    right: 9%;
+  }
+
+  .benefits4pointdiv {
+    width: 35%;
+    top: 60%;
+    left: 6%;
+  }
+
+  .benefits5pointdiv {
+    width: 41%;
+    top: 63%;
+    right: 4%;
+  }
+
+  .benefits6pointdiv {
+    width: 35%;
+    top: 63%;
+  }
+
+  .conclusionoaktreediv2 {
+    width: 35%;
+    display: none;
+  }
+
+  .upcomingeventsectionadmin {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell-128 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .quick-stack-25 {
+    flex: 0 auto;
+    order: 0;
+    align-self: auto;
+  }
+
+  .cell-134,
+  .cell-135,
+  .cell-136 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider {
+    margin-top: 600px;
+    display: block;
+  }
+
+  .slide {
+    vertical-align: baseline;
+    position: static;
+  }
+
+  .section-22 {
+    display: none;
+  }
+
+  .slider-2 {
+    height: 410px;
+  }
+
+  .left-arrow-2,
+  .right-arrow-2 {
+    bottom: 3%;
+  }
+
+  .gallerysection3 {
+    height: 800px;
+  }
+
+  .image-42 {
+    height: 60px;
+  }
+
+  .heading-86 {
+    font-size: 40px;
+  }
+
+  .heading-87 {
+    font-size: 20px;
+  }
+
+  .quick-stack-28 {
+    height: 300px;
+  }
+
+  .cell-151,
+  .cell-153,
+  .cell-154,
+  .cell-155,
+  .cell-156 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quick-stack-29 {
+    height: auto;
+  }
+
+  .slide-2,
+  .slide-3,
+  .slide-4,
+  .slide-5,
+  .slide-6 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 912px) {
+  .oaktreesection {
+    top: 65%;
+    height: 35%;
+  }
+  .palmtreesection {
+    top: 65%;
+    height: 35%;
+  }
+}
+@media screen and (max-width: 853px) {
+  .oaktreesection {
+    top: 60%;
+    height: 40%;
+  }
+  .palmtreesection {
+    top: 60%;
+    height: 40%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .oaktreesection {
+    top: 65%;
+    height: 40%;
+  }
+  .palmtreesection {
+    top: 65%;
+    height: 40%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .oaktreesection {
+    top: 80%;
+    height: 45%;
+  }
+  .oaktree1point {
+    top: 55%;
+  }
+  .oaktree2point {
+    top: 55%;
+  }
+  .oaktree3point {
+    top: 45%;
+  }
+  .oaktree4point {
+    top: 45%;
+  }
+  .oaktree5point {
+    top: 38%;
+    left: 48%;
+  }
+  .palmtreesection {
+    top: 75%;
+    height: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar-brand-three {
+    padding-left: 0;
+  }
+
+  .nav-menu-three {
+    border-radius: 20px;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+
+  .nav-menu-block {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  .nav-dropdown {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .nav-dropdown-toggle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-dropdown-list.shadow-three {
+    box-shadow: 0 8px 50px #0000000d;
+  }
+
+  .nav-dropdown-list.shadow-three.w--open {
+    position: relative;
+  }
+
+  .nav-dropdown-list.shadow-three.mobile-shadow-hide {
+    box-shadow: none;
+  }
+
+  .nav-link-accent {
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  .mobile-margin-top-10 {
+    margin-top: 10px;
+  }
+
+  .hero-heading-center,
+  .team-slider,
+  .logos-quote-divider {
+    padding: 60px 15px;
+  }
+
+  .clients-wrapper-two {
+    flex-direction: column;
+  }
+
+  .clients-info-two {
+    max-width: none;
+    margin-bottom: 40px;
+  }
+
+  .clients-grid {
+    grid-column-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15px;
+  }
+
+  .gallery-overview,
+  .pricing-comparison {
+    padding: 60px 15px;
+  }
+
+  .pricing-wrapper {
+    justify-items: stretch;
+  }
+
+  .pricing-card {
+    width: auto;
+  }
+
+  .pricing-title {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .footer-light {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-copyright {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .footer-social-block-two {
+    margin-top: 20px;
+  }
+
+  .footer-social-link {
+    margin-left: 20px;
+  }
+
+  .navbar-brand-three-2 {
+    padding-left: 0;
+  }
+
+  .nav-menu-three-2 {
+    border-radius: 20px;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+
+  .nav-menu-block-2 {
+    flex-direction: column;
+  }
+
+  .nav-link-2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  .nav-dropdown-2 {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .nav-dropdown-toggle-2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-dropdown-list-2.shadow-three {
+    box-shadow: 0 8px 50px #0000000d;
+  }
+
+  .nav-dropdown-list-2.shadow-three.w--open {
+    position: relative;
+  }
+
+  .nav-dropdown-list-2.shadow-three.mobile-shadow-hide {
+    box-shadow: none;
+  }
+
+  .nav-link-accent-2 {
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  .mobile-margin-top-11 {
+    margin-top: 10px;
+  }
+
+  .hero-heading-center-2 {
+    padding: 60px 15px;
+  }
+
+  .navbar-brand-three-3 {
+    padding-left: 0;
+  }
+
+  .nav-menu-three-3 {
+    border-radius: 20px;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+
+  .nav-menu-block-3 {
+    flex-direction: column;
+  }
+
+  .nav-link-3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  .nav-dropdown-3 {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .nav-dropdown-toggle-3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-dropdown-list-3.shadow-three {
+    box-shadow: 0 8px 50px #0000000d;
+  }
+
+  .nav-dropdown-list-3.shadow-three.w--open {
+    position: relative;
+  }
+
+  .nav-dropdown-list-3.shadow-three.mobile-shadow-hide {
+    box-shadow: none;
+  }
+
+  .nav-link-accent-3 {
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  .mobile-margin-top-12 {
+    margin-top: 10px;
+  }
+
+  .div-block-14 {
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  .section-5 {
+    height: 1900px;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  .section-6 {
+    height: 1300px;
+  }
+
+  .cell-5 {
+    padding-top: 38px;
+    padding-bottom: 0;
+  }
+
+  .heading-19 {
+    align-self: center;
+  }
+
+  .paragraph-7 {
+    order: 1;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 450px;
+    display: block;
+  }
+
+  .quick-stack-6 {
+    margin-top: 0;
+  }
+
+  .cell-6 {
+    padding-top: 23px;
+  }
+
+  .herotext {
+    text-align: left;
+    width: 500px;
+    margin-left: 20px;
+  }
+
+  .heroh1 {
+    text-align: center;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-self: auto;
+    align-items: center;
+    width: 500px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    display: block;
+  }
+
+  .herop {
+    width: 500px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 15px;
+  }
+
+  .ourvisionmissiongrid2 {
+    margin-top: -78px;
+    margin-bottom: 0;
+  }
+
+  .image-20 {
+    margin-right: 18px;
+  }
+
+  .heading-47 {
+    font-size: 30px;
+  }
+
+  .recenteventgrid2 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .recenteventdropdownfaqbtn {
+    width: 100%;
+    padding-right: 20px;
+  }
+
+  .recenteventdropdownbtnfaq {
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+  }
+
+  .dropdown-list-2 {
+    width: auto;
+  }
+
+  .cell-51 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .staticssection {
+    height: 600px;
+  }
+
+  .paragraph-16 {
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .membersection {
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+  }
+
+  .memberscontainer {
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 1100px;
+    display: flex;
+  }
+
+  .membergrid {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: left;
+    text-transform: none;
+    order: 0;
+    align-self: auto;
+    height: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cell-80 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .becomevolteersection {
+    height: 1000px;
+  }
+
+  .volunteerpara {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    display: block;
+  }
+
+  .volunteertitle {
+    font-size: 25px;
+  }
+
+  .cell-89 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .memberdetailcontain {
+    width: 95%;
+    margin-top: 227px;
+    margin-left: 17px;
+  }
+
+  .div-block-30 {
+    width: 90%;
+    height: 250px;
+  }
+
+  .div-block-33 {
+    width: 100%;
+  }
+
+  .image-25 {
+    margin-left: 250px;
+  }
+
+  .heading-61 {
+    font-size: 24px;
+  }
+
+  .documentpara {
+    font-size: 12px;
+  }
+
+  .detailparadiv {
+    width: 100%;
+    height: auto;
+  }
+
+  .popupmember {
+    width: 80%;
+    height: 450px;
+    margin-top: 0;
+    margin-left: 0;
+    display: none;
+    top: 106%;
+    left: 10%;
+  }
+
+  .gallerysection {
+    height: 1500px;
+  }
+
+  .gallerydivblock {
+    column-count: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .gallerydiv {
+    column-count: 1;
+  }
+
+  .collection-list {
+    flex-flow: wrap;
+  }
+
+  .collection-item {
+    flex-basis: 50%;
+  }
+
+  .cell-96,
+  .cell-97,
+  .cell-98,
+  .cell-99 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .collection-list-2 {
+    column-count: 2;
+  }
+
+  .image-28 {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 0;
+    padding-right: 10px;
+  }
+
+  .servicesection {
+    height: 900px;
+  }
+
+  .heading-66 {
+    width: 90%;
+  }
+
+  .servicegrid {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .servicetitle {
+    width: 85%;
+  }
+
+  .oaktreesection {
+    width: 90%;
+    height: 65%;
+    display: none;
+  }
+
+  .recenteventpagesection {
+    height: 2600px;
+  }
+
+  .cell-117 {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell-118,
+  .cell-120,
+  .cell-121,
+  .cell-122 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell-123 {
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .eventpara1 {
+    width: 400px;
+    height: 150px;
+  }
+
+  .image-36 {
+    text-align: left;
+    align-self: center;
+    width: 400px;
+    margin-left: 0;
+  }
+
+  .eventtitle2 {
+    font-size: 23px;
+  }
+
+  .loginimg {
+    width: 100%;
+    height: auto;
+  }
+
+  .cell-124 {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    flex-flow: row;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    display: grid;
+  }
+
+  .palmtree {
+    width: 70%;
+    max-width: 80%;
+    height: 360px;
+    margin-top: 13px;
+  }
+
+  .cell-125 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .oaktreeapplybtn {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    right: -9%;
+  }
+
+  .palmtreebenefits {
+    width: auto;
+  }
+
+  .palmtreeenvironmental {
+    text-align: center;
+  }
+
+  .palmtreecoclusion {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .oaktreeclosebtn {
+    top: -5%;
+  }
+
+  .palmtreesection {
+    width: 90%;
+    max-width: 100%;
+    height: 65%;
+    margin-left: auto;
+    display: none;
+    bottom: -78%;
+    left: 6%;
+  }
+
+  .palmtreeclosebtn {
+    top: -5%;
+  }
+
+  .palmtreegrid {
+    margin-top: 8px;
+  }
+
+  .backbtn {
+    display: none;
+  }
+
+  .benefit1point {
+    display: none;
+    top: 54%;
+    right: auto;
+  }
+
+  .benefit1pointdiv {
+    width: 50%;
+    height: auto;
+    display: none;
+    inset: auto auto 23% 25%;
+  }
+
+  .benefit2point {
+    display: none;
+    bottom: 51%;
+  }
+
+  .benefit2pointdiv {
+    width: 50%;
+    margin-left: auto;
+    display: none;
+    inset: auto auto 23% 25%;
+  }
+
+  .benefit3point {
+    display: none;
+    top: 225.5px;
+  }
+
+  .benefit3pointdiv {
+    width: 51%;
+    display: none;
+    inset: auto auto 19% 25%;
+  }
+
+  .benefit4pointdiv {
+    width: 80%;
+    display: none;
+    inset: auto auto 23% 10%;
+  }
+
+  .benefit5pointdiv {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    inset: auto auto 23% 10%;
+  }
+
+  .benefit5point {
+    display: none;
+    inset: 48% 0% 0% 60%;
+  }
+
+  .benefit4point {
+    display: none;
+    inset: 46% 0% 0% 34%;
+  }
+
+  .uses1point {
+    display: none;
+    inset: auto auto 32% 48%;
+  }
+
+  .uses2point {
+    display: none;
+    inset: auto auto 40% 49%;
+  }
+
+  .uses3point {
+    display: none;
+    inset: auto auto 49% 48%;
+  }
+
+  .uses4point {
+    display: none;
+    left: 31%;
+  }
+
+  .uses7point {
+    display: none;
+    left: 58%;
+  }
+
+  .uses5point {
+    display: none;
+    top: 42%;
+    left: 39%;
+  }
+
+  .uses6point {
+    display: none;
+    top: 41%;
+    left: 56%;
+  }
+
+  .uses1pointdiv {
+    width: 46%;
+    display: none;
+    inset: auto 2px 86px auto;
+  }
+
+  .text-block-8 {
+    color: var(--black\<deleted\|variable-eec9ba71\>);
+    margin: 10px;
+  }
+
+  .uses2pointdiv {
+    width: 41%;
+    display: none;
+    top: auto;
+    bottom: 155px;
+    left: 23px;
+  }
+
+  .uses3pointdiv {
+    width: 43%;
+    display: none;
+    inset: auto 2% 23% auto;
+  }
+
+  .text-block-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .uses4pointdiv {
+    width: 42%;
+    display: none;
+    inset: auto auto 24% 2%;
+  }
+
+  .uses5pointdiv {
+    width: 45%;
+    display: none;
+    inset: auto auto 25% 1%;
+  }
+
+  .uses6pointdiv {
+    text-align: center;
+    width: 50%;
+    display: none;
+    inset: auto 6% 25% auto;
+  }
+
+  .uses7pointdiv {
+    width: 45%;
+    display: none;
+    top: auto;
+    left: auto;
+    right: 17px;
+  }
+
+  .environ1point {
+    display: none;
+    top: 50%;
+    left: 47%;
+  }
+
+  .environ2point {
+    display: none;
+    left: 35%;
+  }
+
+  .environ3point,
+  .environ4point {
+    display: none;
+  }
+
+  .environ1pointdiv {
+    width: 63%;
+    display: none;
+    bottom: 18%;
+  }
+
+  .environ2pointdiv {
+    width: 62%;
+    display: none;
+    top: auto;
+    bottom: 113px;
+  }
+
+  .environ3pointdiv {
+    width: 59%;
+    display: none;
+    inset: auto auto 15% 4%;
+  }
+
+  .environ4pointdiv {
+    width: 71%;
+    display: none;
+    inset: auto 3% 15% auto;
+  }
+
+  .conclusiondiv {
+    order: 0;
+    width: 90%;
+    height: auto;
+    margin-bottom: 0;
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    inset: auto auto 20% 5%;
+  }
+
+  .text-block-19 {
+    margin: 15px;
+    font-size: 13px;
+  }
+
+  .palmtreeapplybtn {
+    inset: auto 2% 2% auto;
+  }
+
+  .palmtreebackbtn {
+    z-index: auto;
+    inset: -9% auto auto 0%;
+  }
+
+  .oaktreebackbtn {
+    top: -9%;
+  }
+
+  .image-39 {
+    width: auto;
+  }
+
+  .oaktreebenefit,
+  .oaktreedisadvantage {
+    text-align: center;
+  }
+
+  .oaktreeconclusion {
+    text-align: center;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    display: block;
+  }
+
+  .oaktreebtn2 {
+    top: 24%;
+    left: 20%;
+  }
+
+  .oaktree-futurebtn {
+    top: 24%;
+    right: 44%;
+  }
+
+  .oaktree-waterbtn {
+    top: 24%;
+    right: 27%;
+  }
+
+  .oaktreeimpactbtn {
+    top: 24%;
+    left: 20%;
+  }
+
+  .oaktreeremovebtn {
+    top: 24%;
+    right: 44%;
+  }
+
+  .oaktreebenefitsbtn {
+    top: 24%;
+    right: 24%;
+  }
+
+  .conclusionoaktreediv {
+    width: 70%;
+  }
+
+  .oaktree1point {
+    display: none;
+    top: 67%;
+    left: 46%;
+  }
+
+  .oaktree2point {
+    display: none;
+    top: 55%;
+    left: 41%;
+  }
+
+  .oaktree3point,
+  .oaktree4point,
+  .oaktree5point {
+    display: none;
+  }
+
+  .oaktree1pointdiv {
+    width: 60%;
+    top: 32%;
+    left: 33%;
+  }
+
+  .oaktree3pointdiv {
+    width: 43%;
+    top: 42%;
+  }
+
+  .oaktree4pointdiv {
+    width: 54%;
+    top: 57%;
+    left: 18%;
+  }
+
+  .oaktree5pointdiv {
+    width: 40%;
+    right: 2%;
+  }
+
+  .future1point,
+  .future2point {
+    display: none;
+  }
+
+  .future3point {
+    display: none;
+    top: 44%;
+  }
+
+  .future1pointdiv {
+    width: 39%;
+    right: 3%;
+  }
+
+  .future2pointdiv {
+    width: 38%;
+    left: 2%;
+  }
+
+  .future3pointdiv {
+    width: 42%;
+    top: 56%;
+  }
+
+  .water2point {
+    left: 38%;
+  }
+
+  .water1pointdiv {
+    width: 38%;
+    right: 3%;
+  }
+
+  .water2pointdiv {
+    width: 42%;
+    top: 58%;
+    left: 3%;
+  }
+
+  .water3pointdiv {
+    width: 39%;
+    right: 3%;
+  }
+
+  .benefitepointdiv {
+    width: 77%;
+    top: 61%;
+    right: 11%;
+  }
+
+  .impact2point,
+  .impact3point {
+    left: 37%;
+  }
+
+  .impact5point {
+    right: 39%;
+  }
+
+  .impact1pointdiv {
+    width: 38%;
+    top: 57%;
+    right: 3%;
+  }
+
+  .impact2pointdiv {
+    width: 43%;
+    bottom: 13%;
+  }
+
+  .impact3pointdiv {
+    width: 40%;
+    top: 60%;
+  }
+
+  .impact4pointdiv {
+    width: 45%;
+    top: 50%;
+  }
+
+  .impact5pointdiv {
+    width: 45%;
+    top: 58%;
+  }
+
+  .impact6pointdiv {
+    width: 49%;
+    top: 60%;
+  }
+
+  .remove2point {
+    left: 36%;
+  }
+
+  .remove3point {
+    left: 37%;
+  }
+
+  .remove5point {
+    left: 56%;
+  }
+
+  .remove6point {
+    right: 37%;
+  }
+
+  .remove1pointdiv {
+    width: 48%;
+    top: 66%;
+  }
+
+  .remove2pointdiv {
+    width: 45%;
+    top: 66%;
+  }
+
+  .remove3pointdiv {
+    width: 57%;
+    top: 66%;
+  }
+
+  .remove4pointdiv {
+    width: 50%;
+    top: 66%;
+    right: 8%;
+  }
+
+  .remove5pointdiv {
+    width: 58%;
+    top: 65%;
+  }
+
+  .remove6pointdiv {
+    width: 53%;
+    top: 64%;
+  }
+
+  .benefits2point {
+    left: 37%;
+  }
+
+  .benefits3point {
+    left: 35%;
+  }
+
+  .benefits5point {
+    left: 53%;
+  }
+
+  .benefits6point {
+    left: 63%;
+  }
+
+  .benefits1pointdiv {
+    width: 40%;
+    top: 68%;
+  }
+
+  .benefits2pointdiv {
+    width: 45%;
+  }
+
+  .benefits3pointdiv {
+    top: 60%;
+    right: 6%;
+  }
+
+  .benefits4pointdiv {
+    width: 40%;
+    top: 63%;
+  }
+
+  .benefits5pointdiv {
+    width: 55%;
+    top: 66%;
+  }
+
+  .benefits6pointdiv {
+    width: 60%;
+    top: 67%;
+  }
+
+  .conclusionoaktreediv2 {
+    width: 56%;
+    top: 34%;
+    left: 23%;
+  }
+
+  .navbar-6 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    display: block;
+    position: static;
+  }
+
+  .container-26 {
+    display: block;
+  }
+
+  .navmenu {
+    z-index: auto;
+    text-align: left;
+    background-color: #c8c8c8;
+    flex-flow: row;
+    order: 0;
+    justify-content: center;
+    align-self: auto;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 110px;
+    margin-bottom: 0;
+    margin-left: 0;
+    display: block;
+    position: fixed;
+    inset: 0% 0% auto;
+  }
+
+  .image-41 {
+    width: 100px;
+  }
+
+  .heading-82 {
+    margin-left: 10px;
+  }
+
+  .brand-2 {
+    flex-flow: row;
+    display: flex;
+  }
+
+  .logout {
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .nav-link-4 {
+    text-align: center;
+  }
+
+  .container-27 {
+    margin-left: 0;
+  }
+
+  .cell-131 {
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .cell-137,
+  .cell-138,
+  .cell-139,
+  .cell-140,
+  .cell-141,
+  .cell-142,
+  .cell-143,
+  .cell-144,
+  .cell-145 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-link-5 {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .menu-button-5 {
+    top: 17px;
+    left: -13px;
+  }
+
+  .slider {
+    display: block;
+  }
+
+  .slider-2 {
+    height: 425px;
+  }
+
+  .heading-85 {
+    text-align: center;
+    margin-left: 40px;
+  }
+
+  .gallerysection3 {
+    height: 1700px;
+  }
+
+  .image-wrapper {
+    column-count: 2;
+  }
+
+  .section-23 {
+    height: 2500px;
+  }
+
+  .collection-list-3 {
+    column-count: 2;
+  }
+}
+@media screen and (max-width: 540px) {
+  .oaktreesection {
+    top: 110%;
+    height: 70%;
+  }
+  .oaktreebackbtn {
+    top: -10%;
+  }
+  .oaktreeclosebtn {
+    top: -6%;
+  }
+  .oaktree1pointdiv {
+    top: 35%;
+    left: 5%;
+    width: 90%;
+  }
+  .oaktree2point {
+    top: 62%;
+  }
+  .oaktree3point {
+    top: 60%;
+  }
+  .oaktree4point {
+    top: 55%;
+  }
+  .oaktree4pointdiv {
+    top: 62%;
+    left: 10%;
+  }
+  .oaktree5point {
+    top: 50%;
+  }
+  .future1point {
+    top: 63%;
+  }
+  .future2point {
+    top: 64%;
+  }
+  .future3point {
+    top: 57%;
+  }
+  .future3pointdiv {
+    top: 55%;
+    left: 55%;
+  }
+  .conclusionoaktreediv2 {
+    top: 26.5%;
+  }
+  .benefitepointdiv {
+    top: 56.5%;
+  }
+  .palmtreesection {
+    top: 110%;
+    height: 75%;
+  }
+}
+@media screen and (max-width: 479px) {
+  .container-2 {
+    max-width: none;
+  }
+
+  .nav-menu-three {
+    flex-direction: column;
+  }
+
+  .centered-heading {
+    margin-bottom: 24px;
+  }
+
+  .team-slide-wrapper {
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .clients-quote-two {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .clients-info-image {
+    margin-right: 16px;
+  }
+
+  .clients-grid {
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-wrapper-two {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-block-two {
+    margin-top: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-social-block-two {
+    margin-top: 20px;
+  }
+
+  .container-3 {
+    max-width: none;
+  }
+
+  .nav-menu-three-2 {
+    flex-direction: column;
+  }
+
+  .container-5 {
+    max-width: none;
+  }
+
+  .centered-heading-2 {
+    margin-bottom: 24px;
+  }
+
+  .container-7 {
+    max-width: none;
+  }
+
+  .nav-menu-three-3 {
+    flex-direction: column;
+  }
+
+  .container-8 {
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .section-5 {
+    object-fit: fill;
+    height: 3100px;
+    max-height: none;
+  }
+
+  .heading-15 {
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-left: 0;
+    display: block;
+  }
+
+  .paragraph-5 {
+    width: 200px;
+  }
+
+  .menu-button-4 {
+    display: block;
+  }
+
+  .image-4 {
+    width: 150px;
+    margin-left: 20px;
+  }
+
+  .heading-16 {
+    width: auto;
+    height: auto;
+  }
+
+  .cell-4 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragraph-7 {
+    width: 225px;
+  }
+
+  .image-7 {
+    vertical-align: baseline;
+    flex: 0 auto;
+    order: 0;
+    align-self: center;
+  }
+
+  .cell-12,
+  .cell-13,
+  .cell-14,
+  .cell-15,
+  .cell-16,
+  .cell-17 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quick-stack-8 {
+    align-self: auto;
+  }
+
+  .upcomingsection {
+    height: 2500px;
+  }
+
+  .cell-33 {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell-34 {
+    text-align: center;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .cell-35,
+  .cell-36,
+  .cell-37,
+  .cell-38,
+  .cell-39 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .herocontainer {
+    line-height: 30px;
+  }
+
+  .herotext {
+    width: 300px;
+    margin-left: 10px;
+  }
+
+  .heroh1 {
+    text-align: center;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    font-size: 34px;
+    line-height: 30px;
+    display: flex;
+  }
+
+  .herop {
+    width: 250px;
+    margin-right: 0;
+    font-size: 15px;
+  }
+
+  .ourmissionvisionsection {
+    height: 1800px;
+  }
+
+  .cell-41 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ourvisionmissiongrid2 {
+    margin-top: -80px;
+  }
+
+  .paragraph-11,
+  .paragraph-12 {
+    font-size: 14px;
+  }
+
+  .heading-46,
+  .heading-47 {
+    font-size: 30px;
+  }
+
+  .cell-45 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recenteventsection {
+    height: 1500px;
+  }
+
+  .recenteventgrid {
+    width: 300px;
+  }
+
+  .recenteventgrid2 {
+    align-self: center;
+    width: 300px;
+    margin-left: 0;
+  }
+
+  .recenteventp {
+    text-align: center;
+    justify-content: center;
+    align-self: auto;
+    align-items: center;
+    padding-left: 0;
+    display: flex;
+  }
+
+  .recenteventh1 {
+    font-size: 20px;
+  }
+
+  .faqtitle {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .recenteventdropdownfaqbtn,
+  .recenteventdropdownbtnfaq {
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+  }
+
+  .dropdown-list-2.w--open {
+    flex-flow: column;
+    order: 0;
+    justify-content: center;
+    align-self: auto;
+    align-items: center;
+    display: block;
+    position: relative;
+    inset: 0%;
+  }
+
+  .paragraph-14 {
+    font-size: 12px;
+  }
+
+  .cell-50,
+  .cell-51 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragraph-15 {
+    text-align: center;
+  }
+
+  .staticssection {
+    height: 1200px;
+  }
+
+  .footer {
+    height: 600px;
+  }
+
+  .cell-76 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerlink {
+    margin-bottom: 14px;
+  }
+
+  .copyright {
+    text-align: center;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .footerbottomlink {
+    flex-flow: column;
+  }
+
+  .image-22 {
+    margin-right: 0;
+  }
+
+  .membersection {
+    height: 1800px;
+  }
+
+  .memberscontainer {
+    height: 1700px;
+  }
+
+  .membergrid {
+    height: 1800px;
+  }
+
+  .becomevolteersection {
+    height: 1250px;
+  }
+
+  .cell-84 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell-86 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragraph-17 {
+    align-self: auto;
+  }
+
+  .cell-88 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .volunteerpara {
+    text-align: center;
+    flex-flow: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    padding-left: 0;
+    display: block;
+  }
+
+  .cell-89 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .memberdetailcontain {
+    height: 700px;
+    margin-top: 78px;
+  }
+
+  .cell-90 {
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    display: flex;
+  }
+
+  .div-block-30 {
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 250px;
+    margin-top: 11px;
+    margin-bottom: 9px;
+    margin-left: 0;
+    display: flex;
+  }
+
+  .cell-91 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading-59,
+  .heading-60 {
+    font-size: 20px;
+  }
+
+  .paragraph-18 {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .cell-92 {
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .div-block-33 {
+    width: 100%;
+  }
+
+  .image-25 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .heading-61 {
+    font-size: 18px;
+  }
+
+  .heading-62 {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .documentsection {
+    height: 750px;
+  }
+
+  .documenttitle {
+    font-size: 15px;
+  }
+
+  .documentpara {
+    font-size: 9px;
+  }
+
+  .detailparadiv {
+    height: auto;
+  }
+
+  .divparadetail {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .popupmember {
+    height: 700px;
+    margin-left: 0;
+    display: none;
+    left: 10%;
+  }
+
+  .gallerysection {
+    height: 3500px;
+  }
+
+  .gallerydivblock {
+    column-count: 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .linkblock {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .imagegrid {
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+
+  .collection-item {
+    flex-basis: 90%;
+  }
+
+  .collection-list-wrapper,
+  .collection-list-2 {
+    column-count: 1;
+  }
+
+  .image-28 {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 0;
+    padding-right: 10px;
+  }
+
+  .servicesection {
+    height: 1600px;
+  }
+
+  .cell-100 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .heading-66 {
+    width: 80%;
+    font-size: 13px;
+  }
+
+  .quick-stack-20 {
+    margin-top: 112px;
+    margin-bottom: 0;
+  }
+
+  .servicegrid {
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+  }
+
+  .servicetitle {
+    width: 100%;
+  }
+
+  .oaktreesection {
+    height: 90%;
+    display: none;
+    top: 110%;
+  }
+
+  .contactsection {
+    height: 1800px;
+  }
+
+  .text-field {
+    width: 250px;
+  }
+
+  .submit-button {
+    margin-left: 67px;
+  }
+
+  .paragraph-20 {
+    text-align: center;
+    width: 250px;
+  }
+
+  .contacthead {
+    font-size: 40px;
+  }
+
+  .email {
+    font-size: 16px;
+  }
+
+  .formpara,
+  .name {
+    width: 250px;
+  }
+
+  .formsubmitbtn {
+    margin-left: 75px;
+  }
+
+  .recenteventpagesection {
+    height: 3000px;
+  }
+
+  .cell-117,
+  .cell-118,
+  .cell-121,
+  .cell-122 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eventtitle1 {
+    color: #000;
+  }
+
+  .eventpara1 {
+    width: 250px;
+    height: 200px;
+    font-size: 12px;
+  }
+
+  .eventtime1,
+  .eventplace1,
+  .eventlocation1 {
+    color: #000;
+  }
+
+  .image-36 {
+    height: 275px;
+    margin-left: 0;
+  }
+
+  .eventtitle2 {
+    color: #000;
+  }
+
+  .adminloginsection {
+    background-color: #fff;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+  .admincontainer {
+    height: 884px;
+    max-height: 100%;
+    margin-top: 0;
+  }
+
+  .loginform {
+    width: 250px;
+  }
+
+  .loginname {
+    width: 100%;
+  }
+
+  .loginbtn {
+    font-size: 20px;
+  }
+
+  .loginimg {
+    width: 100%;
+    height: auto;
+  }
+
+  .cell-124 {
+    flex-flow: column;
+    display: flex;
+  }
+
+  .palmtree {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+  }
+
+  .oaktreeapplybtn {
+    right: -18%;
+  }
+
+  .palmtreebenefits,
+  .palmtreeuses,
+  .palmtreeenvironmental {
+    margin-right: 0;
+  }
+
+  .oaktreeclosebtn {
+    top: 2%;
+  }
+
+  .palmtreesection {
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    display: none;
+    bottom: -92%;
+    left: 6%;
+  }
+
+  .palmtreeclosebtn {
+    top: 2%;
+  }
+
+  .benefit1point {
+    display: none;
+    inset: auto auto 39% 48%;
+  }
+
+  .benefit1pointdiv {
+    width: 90%;
+    height: auto;
+    display: none;
+    inset: auto auto 25% 5%;
+  }
+
+  .benefit2point {
+    display: none;
+    inset: auto auto 44% 48%;
+  }
+
+  .benefit2pointdiv {
+    width: 80%;
+    margin-left: auto;
+    display: none;
+    inset: auto auto 25% 5%;
+  }
+
+  .benefit3point {
+    display: none;
+    inset: auto auto 48% 50%;
+  }
+
+  .benefit3pointdiv {
+    width: 95%;
+    display: none;
+    inset: auto auto 25% 3%;
+  }
+
+  .benefit4pointdiv {
+    width: 90%;
+    display: none;
+    inset: auto auto 25% 5%;
+  }
+
+  .benefit5pointdiv {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    inset: auto auto 25% 5%;
+  }
+
+  .text-block-7 {
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  .benefit5point {
+    display: none;
+    inset: 53% 0% auto 60%;
+  }
+
+  .benefit4point {
+    align-self: auto;
+    display: none;
+    inset: 50% 0% auto 33%;
+  }
+
+  .uses1point {
+    display: none;
+    inset: auto auto 38% 48%;
+  }
+
+  .uses2point {
+    display: none;
+    inset: auto auto 42% 47%;
+  }
+
+  .uses3point {
+    display: none;
+    inset: auto auto 47% 46%;
+  }
+
+  .uses4point {
+    display: none;
+    top: 53%;
+  }
+
+  .uses7point {
+    display: none;
+    top: 54%;
+  }
+
+  .uses5point {
+    display: none;
+    top: 49%;
+    left: 35%;
+  }
+
+  .uses6point {
+    display: none;
+    top: 49%;
+  }
+
+  .uses1pointdiv {
+    width: 85%;
+    font-size: 14px;
+    display: none;
+    inset: auto auto 25% 7%;
+  }
+
+  .uses2pointdiv {
+    width: 85%;
+    font-size: 14px;
+    display: none;
+    inset: auto auto 25% 5%;
+  }
+
+  .uses3pointdiv {
+    width: 90%;
+    font-size: 14px;
+    display: none;
+    inset: auto auto 25% 5%;
+  }
+
+  .uses4pointdiv {
+    width: 80%;
+    font-size: 14px;
+    display: none;
+    inset: auto auto 25% 10%;
+  }
+
+  .uses5pointdiv {
+    width: 90%;
+    font-size: 14px;
+    display: none;
+    inset: auto auto 25% 5%;
+  }
+
+  .uses6pointdiv {
+    width: 90%;
+    display: none;
+    inset: auto auto 25% 5%;
+  }
+
+  .text-block-13 {
+    font-size: 14px;
+  }
+
+  .uses7pointdiv {
+    color: #000;
+    width: 93%;
+    height: auto;
+    display: none;
+    inset: auto auto 25% 4%;
+  }
+
+  .text-block-14 {
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  .environ1point {
+    display: none;
+    inset: 56% 0% 0% 47%;
+  }
+
+  .environ2point {
+    display: none;
+    top: 52%;
+    left: 29%;
+  }
+
+  .environ3point {
+    display: none;
+    top: 51%;
+    left: 46%;
+  }
+
+  .environ4point {
+    display: none;
+    top: 53%;
+    left: 63%;
+  }
+
+  .environ1pointdiv {
+    width: 78%;
+    display: none;
+    inset: auto auto 23% 11%;
+  }
+
+  .environ2pointdiv {
+    width: 89%;
+    display: none;
+    inset: auto auto 24% 5%;
+  }
+
+  .environ3pointdiv {
+    width: 92%;
+    display: none;
+    inset: auto auto 24% 4%;
+  }
+
+  .environ4pointdiv {
+    width: 91%;
+    display: none;
+    bottom: 21%;
+    right: 5%;
+  }
+
+  .text-block-17 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .conclusiondiv {
+    display: none;
+  }
+
+  .palmtreeapplybtn {
+    inset: auto 2% 1% auto;
+  }
+
+  .palmtreebackbtn {
+    inset: 0% auto auto 0%;
+  }
+
+  .oaktreebackbtn {
+    display: block;
+    top: 0%;
+  }
+
+  .oaktreebenefit,
+  .oaktreedisadvantage,
+  .oaktreeconclusion {
+    display: block;
+  }
+
+  .oaktreebtn2 {
+    display: none;
+    top: 26%;
+    left: 5%;
+  }
+
+  .oaktree-futurebtn {
+    display: none;
+    top: 26%;
+    right: 37%;
+  }
+
+  .oaktree-waterbtn {
+    display: none;
+    top: 26%;
+    right: 7%;
+  }
+
+  .oaktreeimpactbtn {
+    display: none;
+    top: 26%;
+    left: 5%;
+  }
+
+  .oaktreeremovebtn {
+    display: none;
+    top: 26%;
+    right: 37%;
+  }
+
+  .oaktreebenefitsbtn {
+    display: none;
+    top: 26%;
+    right: 7%;
+  }
+
+  .conclusionoaktreediv {
+    width: 95%;
+  }
+
+  .oaktree1point {
+    display: none;
+    top: 56%;
+    left: 44%;
+  }
+
+  .oaktree2point {
+    display: none;
+    top: 49%;
+    left: 35%;
+  }
+
+  .oaktree3point {
+    display: none;
+    top: 44%;
+    left: 43%;
+  }
+
+  .oaktree4point {
+    display: none;
+    top: 46%;
+    left: 54%;
+  }
+
+  .oaktree5point {
+    display: none;
+    top: 50%;
+  }
+
+  .oaktree1pointdiv {
+    width: 92%;
+    top: 58%;
+    left: 5%;
+  }
+
+  .oaktree2pointdiv {
+    width: 93%;
+    top: 56%;
+    left: 3%;
+  }
+
+  .oaktree3pointdiv {
+    width: 90%;
+    top: 60%;
+    left: 5%;
+  }
+
+  .oaktree4pointdiv {
+    width: 90%;
+    left: 5%;
+  }
+
+  .oaktree5pointdiv {
+    width: 90%;
+    top: 59%;
+    right: 4%;
+  }
+
+  .future1point {
+    display: none;
+    top: 50%;
+    left: 53%;
+  }
+
+  .future2point {
+    display: none;
+    top: 45%;
+    left: 36%;
+  }
+
+  .future3point {
+    display: none;
+    top: 47%;
+    left: 45%;
+  }
+
+  .future1pointdiv {
+    width: 90%;
+    top: 57%;
+    right: 5%;
+  }
+
+  .future2pointdiv {
+    width: 90%;
+    left: 5%;
+  }
+
+  .future3pointdiv {
+    width: 90%;
+    display: none;
+  }
+
+  .water1point {
+    display: none;
+    top: 51%;
+    left: 49%;
+  }
+
+  .water2point {
+    display: none;
+    top: 46%;
+  }
+
+  .water3point {
+    top: 43%;
+    left: 55%;
+  }
+
+  .water1pointdiv {
+    width: 90%;
+    top: 57%;
+    right: 5%;
+  }
+
+  .water2pointdiv {
+    width: 90%;
+    left: 5%;
+  }
+
+  .water3pointdiv,
+  .benefitepointdiv {
+    width: 90%;
+    right: 5%;
+  }
+
+  .impact1point {
+    display: none;
+    top: 56%;
+    left: 42%;
+  }
+
+  .impact2point {
+    display: none;
+    top: 50%;
+    left: 34%;
+  }
+
+  .impact3point {
+    display: none;
+    top: 45%;
+  }
+
+  .impact4point {
+    display: none;
+    top: 47%;
+  }
+
+  .impact5point {
+    display: none;
+    top: 47%;
+    right: 34%;
+  }
+
+  .impact6point {
+    display: none;
+    top: 51%;
+    left: 55%;
+  }
+
+  .impact1pointdiv {
+    width: 80%;
+    display: none;
+    top: 60%;
+    right: 7%;
+  }
+
+  .impact2pointdiv {
+    width: 80%;
+    bottom: 28%;
+    left: 13%;
+  }
+
+  .impact3pointdiv {
+    width: 98%;
+    right: 1%;
+  }
+
+  .impact4pointdiv {
+    width: 90%;
+    display: none;
+    top: 52%;
+  }
+
+  .impact5pointdiv,
+  .impact6pointdiv {
+    width: 90%;
+  }
+
+  .oaktree {
+    width: 100%;
+    height: 300px;
+  }
+
+  .remove1point {
+    display: none;
+    top: 56%;
+    left: 43%;
+  }
+
+  .remove2point {
+    display: none;
+    top: 50%;
+    left: 34%;
+  }
+
+  .remove3point {
+    display: none;
+    top: 45%;
+  }
+
+  .remove4point {
+    display: none;
+    top: 51%;
+  }
+
+  .remove5point {
+    display: none;
+    top: 47%;
+  }
+
+  .remove6point {
+    display: none;
+    top: 51%;
+    right: 34%;
+  }
+
+  .remove1pointdiv {
+    width: 84%;
+    display: none;
+    top: 61%;
+    right: 5%;
+  }
+
+  .remove2pointdiv {
+    width: 80%;
+    top: 56%;
+    left: 11%;
+  }
+
+  .remove3pointdiv {
+    width: 90%;
+    top: 59%;
+    left: 5%;
+  }
+
+  .remove4pointdiv {
+    width: 90%;
+    top: 60%;
+    right: 5%;
+  }
+
+  .remove5pointdiv {
+    width: 85%;
+    top: 58%;
+    left: 7%;
+  }
+
+  .remove6pointdiv {
+    width: 95%;
+    top: 56%;
+    right: 2%;
+  }
+
+  .benefits1point {
+    display: none;
+    top: 54%;
+  }
+
+  .benefits2point {
+    display: none;
+    top: 51%;
+  }
+
+  .benefits3point {
+    display: none;
+    top: 46%;
+  }
+
+  .benefits4point {
+    display: none;
+    top: 45%;
+  }
+
+  .benefits5point {
+    display: none;
+    top: 49%;
+  }
+
+  .benefits6point {
+    display: none;
+    top: 51%;
+  }
+
+  .benefits1pointdiv {
+    width: 80%;
+    display: none;
+    top: 59%;
+  }
+
+  .benefits2pointdiv {
+    width: 80%;
+    top: 55%;
+    left: 9%;
+  }
+
+  .benefits3pointdiv {
+    width: 87%;
+    top: 54%;
+    right: 6%;
+  }
+
+  .benefits4pointdiv {
+    width: 80%;
+    top: 55%;
+    left: 9%;
+  }
+
+  .benefits5pointdiv {
+    width: 80%;
+    top: 55%;
+    right: 8%;
+  }
+
+  .benefits6pointdiv {
+    width: 80%;
+    top: 55%;
+    left: 11%;
+  }
+
+  .conclusionoaktreediv2 {
+    width: 90%;
+    left: 5%;
+  }
+
+  .navbar-6 {
+    width: 100%;
+    height: auto;
+  }
+
+  .navmenu {
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: none;
+    margin-top: 173px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+  }
+
+  .brand-2 {
+    flex-flow: column;
+  }
+
+  .nav-link-4 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    display: flex;
+  }
+
+  .container-27 {
+    margin-left: 0;
+  }
+
+  .heading-83 {
+    font-size: 30px;
+  }
+
+  .heading-84 {
+    text-align: center;
+  }
+
+  .form-block-2,
+  .form-block-3 {
+    width: 180px;
+  }
+
+  .cell-137,
+  .cell-138,
+  .cell-139 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-field-3 {
+    width: 150px;
+  }
+
+  .text-field-4 {
+    width: 100px;
+  }
+
+  .text-field-5 {
+    width: 125px;
+  }
+
+  .textarea-2 {
+    width: 150px;
+  }
+
+  .text-field-6 {
+    width: 120px;
+  }
+
+  .cell-140,
+  .cell-141,
+  .cell-142,
+  .cell-143 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quick-stack-26 {
+    flex: 0 auto;
+  }
+
+  .cell-144,
+  .cell-145 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-link-5 {
+    width: 100px;
+  }
+
+  .menu-button-5 {
+    top: 63px;
+    left: -16px;
+  }
+
+  .list {
+    font-size: 12px;
+  }
+
+  .list-item,
+  .list-item-2,
+  .list-item-3 {
+    margin-bottom: 5px;
+  }
+
+  .slider {
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    margin-top: 500px;
+    display: flex;
+  }
+
+  .left-arrow {
+    left: 35%;
+  }
+
+  .right-arrow {
+    left: 75%;
+  }
+
+  .slider-2 {
+    height: 700px;
+  }
+
+  .left-arrow-2 {
+    bottom: 3%;
+    left: 32%;
+  }
+
+  .right-arrow-2 {
+    bottom: 3%;
+    left: 45%;
+  }
+
+  .heading-85 {
+    color: #000;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .forgotbtn {
+    align-self: center;
+  }
+
+  .websitebtn {
+    text-align: center;
+    align-self: center;
+  }
+
+  .cell-147 {
+    grid-column-gap: 22px;
+    grid-row-gap: 22px;
+    text-align: center;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .gallerysection3 {
+    height: 3300px;
+  }
+
+  .image-wrapper {
+    text-align: center;
+    column-count: 1;
+  }
+
+  .section-23 {
+    height: 6300px;
+    overflow: hidden;
+  }
+
+  .collection-list-3 {
+    column-count: 1;
+  }
+
+  .heading-88 {
+    font-size: 30px;
+  }
+
+  .image-43 {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .oaktreesection {
+    height: 70%;
+  }
+  .oaktree1point {
+    top: 65%;
+  }
+  .oaktree1pointdiv {
+    display: none;
+    top: 37%;
+  }
+  .oaktree2point {
+    top: 65%;
+    left: 35%;
+  }
+  .oaktree2pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .oaktree3point {
+    top: 65%;
+    left: 55%;
+  }
+  .oaktree3pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .oaktree4point {
+    top: 58%;
+    left: 40%;
+  }
+  .oaktree4pointdiv {
+    display: none;
+    top: 65%;
+  }
+  .oaktree5point {
+    top: 58%;
+    left: 50%;
+  }
+  .oaktree5pointdiv {
+    display: none;
+    top: 65%;
+  }
+  .future1point {
+    top: 65%;
+    left: 50%;
+  }
+  .future1pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future2point {
+    top: 63%;
+    left: 40%;
+  }
+  .future2pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future3point {
+    top: 62%;
+    left: 30%;
+  }
+  .future3pointdiv {
+    display: none;
+    top: 37%;
+  }
+  .water1point {
+    top: 65%;
+    left: 50%;
+  }
+  .water1pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .water2point {
+    top: 65%;
+    left: 40%;
+  }
+  .water2pointdiv {
+    display: none;
+    top: 38%;
+  }
+  .water3point {
+    top: 57%;
+    left: 45%;
+  }
+  .water3pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .impact1point {
+    top: 68%;
+    left: 50%;
+  }
+  .impact1pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .impact2point {
+    top: 67%;
+    left: 40%;
+  }
+  .impact2pointdiv {
+    display: none;
+    top: 42%;
+    height: 120px;
+  }
+  .impact3point {
+    top: 66%;
+    left: 30%;
+  }
+  .impact3pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .impact4point {
+    top: 59%;
+    left: 30%;
+  }
+  .impact4pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .impact5point {
+    top: 58%;
+    left: 40%;
+  }
+  .impact5pointdiv {
+    display: none;
+    top: 32%;
+  }
+  .impact6point {
+    top: 62%;
+    left: 50%;
+  }
+  .impact6pointdiv {
+    display: none;
+    top: 33%;
+  }
+  .remove1point {
+    top: 70%;
+  }
+  .remove1pointdiv {
+    display: none;
+    top: 50%;
+  }
+  .remove2point {
+    top: 68%;
+  }
+  .remove2pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .remove3point {
+    top: 62%;
+  }
+  .remove3pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .remove4point {
+    top: 64%;
+  }
+  .remove4pointdiv {
+    display: none;
+    top: 44%;
+  }
+  .remove5point {
+    top: 68%;
+  }
+  .remove5pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .remove6point {
+    top: 58%;
+    right: 50%;
+  }
+  .remove6pointdiv {
+    display: none;
+    top: 32%;
+  }
+  .benefits1point {
+    top: 68%;
+    left: 55%;
+  }
+  .benefits1pointdiv {
+    display: none;
+    top: 49%;
+  }
+  .benefits2point {
+    top: 69%;
+    left: 40%;
+  }
+  .benefits2pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .benefits3point {
+    top: 68%;
+    left: 30%;
+  }
+  .benefits3pointdiv {
+    display: none;
+    top: 49%;
+  }
+  .benefits4point {
+    top: 62%;
+    left: 36%;
+  }
+  .benefits4pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .benefits5point {
+    top: 60%;
+    left: 55%;
+  }
+  .benefits5pointdiv {
+    display: none;
+    top: 43%;
+  }
+  .benefits6point {
+    top: 60%;
+    left: 44%;
+  }
+  .benefits6pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .conclusionoaktreediv2 {
+    top: 35%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .oaktreesection {
+    height: 75%;
+  }
+  .conclusionoaktreediv2 {
+    top: 35%;
+  }
+}
+@media screen and (max-width: 412px) {
+  .oaktreesection {
+    height: 70%;
+  }
+  .oaktree1pointdiv {
+    display: none;
+    top: 70%;
+  }
+  .oaktree2pointdiv {
+    display: none;
+    top: 70%;
+  }
+  .future1point {
+    top: 65%;
+    left: 50%;
+  }
+  .future1pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future2point {
+    top: 63%;
+    left: 40%;
+  }
+  .future2pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future3point {
+    top: 62%;
+    left: 30%;
+  }
+  .future3pointdiv {
+    display: none;
+    top: 37%;
+  }
+  .water1point {
+    top: 65%;
+    left: 50%;
+  }
+  .water1pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .water2point {
+    top: 65%;
+    left: 40%;
+  }
+  .water2pointdiv {
+    display: none;
+    top: 38%;
+  }
+  .water3point {
+    top: 57%;
+    left: 45%;
+  }
+  .water3pointdiv {
+    display: none;
+    top: 68%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .oaktree1pointdiv {
+    display: none;
+    top: 30%;
+  }
+  .oaktree3pointdiv {
+    display: none;
+    top: 36%;
+  }
+  .conclusionoaktreediv2 {
+    top: 32%;
+  }
+  .benefitepointdiv {
+    top: 54%;
+  }
+  .benefit3point {
+    top: 49%;
+    left: 46%;
+  }
+  .benefit4point {
+    top: 56%;
+  }
+  .uses4point {
+    top: 59%;
+  }
+  .uses5point {
+    top: 53%;
+  }
+  .uses6point {
+    top: 59%;
+    left: 59%;
+  }
+  .uses7point {
+    top: 53%;
+  }
+  .environ2point {
+    top: 56%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .oaktreesection {
+    height: 90%;
+  }
+  .oaktree1point {
+    top: 69%;
+  }
+  .oaktree1pointdiv {
+    display: none;
+    top: 30%;
+  }
+  .oaktree2point {
+    top: 68%;
+  }
+  .oaktree2pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .oaktree3point {
+    top: 65%;
+    left: 50%;
+  }
+  .oaktree3pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .oaktree4point {
+    top: 62%;
+    left: 40%;
+  }
+  .oaktree4pointdiv {
+    display: none;
+    top: 32%;
+  }
+  .oaktree5point {
+    top: 63%;
+    left: 30%;
+  }
+  .oaktree5pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future1point {
+    top: 65%;
+    left: 50%;
+  }
+  .future1pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future2point {
+    top: 63%;
+    left: 40%;
+  }
+  .future2pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .future3point {
+    top: 62%;
+    left: 30%;
+  }
+  .future3pointdiv {
+    display: none;
+    top: 37%;
+  }
+  .water1point {
+    top: 70%;
+    left: 50%;
+  }
+  .water1pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .water2point {
+    top: 65%;
+    left: 40%;
+  }
+  .water2pointdiv {
+    display: none;
+    top: 38%;
+  }
+  .water3point {
+    top: 60%;
+    left: 50%;
+  }
+  .water3pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .impact1point {
+    top: 68%;
+    left: 50%;
+  }
+  .impact1pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .impact2point {
+    top: 67%;
+    left: 40%;
+  }
+  .impact2pointdiv {
+    display: none;
+    top: 42%;
+    height: 120px;
+  }
+  .impact3point {
+    top: 66%;
+    left: 30%;
+  }
+  .impact3pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .impact4point {
+    top: 59%;
+    left: 30%;
+  }
+  .impact4pointdiv {
+    display: none;
+    top: 35%;
+  }
+  .impact5point {
+    top: 58%;
+    left: 40%;
+  }
+  .impact5pointdiv {
+    display: none;
+    top: 32%;
+  }
+  .impact6point {
+    top: 62%;
+    left: 50%;
+  }
+  .impact6pointdiv {
+    display: none;
+    top: 33%;
+  }
+  .remove1point {
+    top: 70%;
+  }
+  .remove1pointdiv {
+    display: none;
+    top: 50%;
+  }
+  .remove2point {
+    top: 68%;
+  }
+  .remove2pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .remove3point {
+    top: 62%;
+  }
+  .remove3pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .remove4point {
+    top: 64%;
+  }
+  .remove4pointdiv {
+    display: none;
+    top: 44%;
+  }
+  .remove5point {
+    top: 68%;
+  }
+  .remove5pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .remove6point {
+    top: 58%;
+    right: 50%;
+  }
+  .remove6pointdiv {
+    display: none;
+    top: 32%;
+  }
+  .benefits1point {
+    top: 70%;
+    left: 50%;
+  }
+  .benefits1pointdiv {
+    display: none;
+    top: 49%;
+  }
+  .benefits2point {
+    top: 69%;
+    left: 40%;
+  }
+  .benefits2pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .benefits3point {
+    top: 68%;
+    left: 30%;
+  }
+  .benefits3pointdiv {
+    display: none;
+    top: 49%;
+  }
+  .benefits4point {
+    top: 62%;
+    left: 36%;
+  }
+  .benefits4pointdiv {
+    display: none;
+    top: 45%;
+  }
+  .benefits5point {
+    top: 65%;
+    left: 50%;
+  }
+  .benefits5pointdiv {
+    display: none;
+    top: 43%;
+  }
+  .benefits6point {
+    top: 60%;
+    left: 44%;
+  }
+  .benefits6pointdiv {
+    display: none;
+    top: 40%;
+  }
+  .conclusionoaktreediv2 {
+    display: none;
+    top: 32%;
+  }
+  .benefitepointdiv {
+    display: none;
+    top: 54%;
+  }
+  .palmtreesection {
+    top: 120%;
+    height: 96%;
+  }
+  .palmtree {
+    height: 300px;
+  }
+  .benefit1point {
+    top: 80%;
+  }
+  .benefit1pointdiv {
+    display: none;
+    bottom: 2%;
+  }
+  .benefit2point {
+    top: 70%;
+  }
+  .benefit2pointdiv {
+    display: none;
+    bottom: 10%;
+    left: 10%;
+  }
+  .benefit3point {
+    top: 62%;
+    left: 45%;
+  }
+  .benefit3pointdiv {
+    display: none;
+    bottom: 15%;
+    left: 3%;
+  }
+  .benefit4point {
+    top: 65%;
+    left: 33%;
+  }
+  .benefit4pointdiv {
+    display: none;
+    bottom: 15%;
+    left: 5%;
+  }
+  .benefit5point {
+    top: 65%;
+    left: 60%;
+  }
+  .benefit5pointdiv {
+    display: none;
+    bottom: 11%;
+    left: 7%;
+  }
+  .uses1point {
+    top: 80%;
+  }
+  .uses1pointdiv {
+    display: none;
+    bottom: 3%;
+  }
+  .uses2point {
+    top: 75%;
+  }
+  .uses2pointdiv {
+    display: none;
+    bottom: 10%;
+    left: 10%;
+  }
+  .uses3point {
+    top: 70%;
+  }
+  .uses3pointdiv {
+    display: none;
+    bottom: 10%;
+    left: 3%;
+  }
+  .uses4point {
+    top: 65%;
+  }
+  .uses4pointdiv {
+    display: none;
+    bottom: 10%;
+    left: 5%;
+  }
+  .uses5point {
+    top: 65%;
+    left: 60%;
+  }
+  .uses5pointdiv {
+    display: none;
+    bottom: 11%;
+    left: 7%;
+  }
+  .uses6point {
+    top: 65%;
+    left: 45%;
+  }
+  .uses6pointdiv {
+    display: none;
+    bottom: 10%;
+    left: 7%;
+  }
+  .uses7point {
+    top: 60%;
+    left: 45%;
+  }
+  .uses7pointdiv {
+    display: none;
+    bottom: 11%;
+    left: 3%;
+  }
+  .environ1point {
+    top: 70%;
+  }
+  .environ1pointdiv {
+    display: none;
+    bottom: 4%;
+  }
+  .environ2point {
+    top: 67%;
+  }
+  .environ2pointdiv {
+    display: none;
+    bottom: 2%;
+    left: 5%;
+  }
+  .environ3point {
+    top: 60%;
+  }
+  .environ3pointdiv {
+    display: none;
+    bottom: 7%;
+    left: 3%;
+  }
+  .environ4point {
+    top: 65%;
+  }
+  .environ4pointdiv {
+    display: none;
+    bottom: 9%;
+    left: 5%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .oaktreesection {
+    height: 80%;
+  }
+  .conclusionoaktreediv2 {
+    top: 31.5%;
+  }
+  .benefitepointdiv {
+    top: 56.5%;
+  }
+}
+@media screen and (max-width: 344px) {
+  .oaktreesection {
+    height: 69%;
+  }
+  .palmtreesection {
+    height: 75%;
+  }
+  .oaktree4pointdiv {
+    top: 30%;
+  }
+  .oaktree3pointdiv {
+    top: 30%;
+  }
+  .future1pointdiv {
+    top: 30%;
+    left: 5%;
+  }
+  .future3pointdiv {
+    left: 5%;
+  }
+  .water1pointdiv {
+    top: 30%;
+  }
+  .water2pointdiv {
+    top: 30%;
+  }
+  .impact1pointdiv {
+    top: 30%;
+  }
+  .benefits5pointdiv {
+    top: 30%;
+  }
+}
