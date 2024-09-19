@@ -24,6 +24,11 @@ summary {
   display: block;
 }
 
+#myvideo{
+  width: 100%;
+  height: 100%;
+}
+
 audio,
 canvas,
 progress,
@@ -9203,6 +9208,7 @@ textarea.w-select {
 .image-43 {
   height: 300px;
 }
+
 
 .oaktreepopupblock {
   z-index: 9;

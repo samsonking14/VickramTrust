@@ -67,15 +67,15 @@
         /></a>
         <nav role="navigation" class="nav-menu w-nav-menu">
           <a href="/index.html" class="navlink w-nav-link">Home</a
-          ><a href="/pages/champion.html" class="navlink w-nav-link"
+          ><a href="./champion.html" class="navlink w-nav-link"
             >Champions</a
-          ><a href="/pages/gallery.html" class="navlink w-nav-link">gallery</a
-          ><a href="/pages/service.html" class="navlink w-nav-link">service</a
+          ><a href="./gallery.html" class="navlink w-nav-link">gallery</a
+          ><a href="./service.html" class="navlink w-nav-link">service</a
           ><a href="#" class="navlink w-nav-link">Contact</a>
         </nav>
         <div class="menu-button-4 w-nav-button">
           <img
-            src="/images/hamburger menu.svg"
+            src="../images/hamburger menu.svg"
             loading="lazy"
             alt=""
             class="image-42"
@@ -205,24 +205,20 @@
             class="w-layout-cell cell-105"
           >
             <h1 class="formtitle">contact</h1>
-            <p class="formpara">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique.
-            </p>
             <div class="w-form">
               <form
                 id="email-form"
                 name="email-form"
                 data-name="Email Form"
-                method="get"
+                action="https://api.web3forms.com/submit" method="POST"
                 data-wf-page-id="66d014946e1fd84377f57f0d"
                 data-wf-element-id="3eb787d9-aabf-b5a1-0466-69b8a0cd38fd"
-              >
+              ><input type="hidden" name="access_key" value="9e91236d-7caf-431f-b0ed-73cd5b1ab085">
                 <input
                   class="name w-input"
                   autofocus="true"
                   maxlength="256"
-                  name="name-2"
+                  name="name"
                   data-name="Name 2"
                   placeholder="Name"
                   type="text"
@@ -232,7 +228,7 @@
                   class="email w-input"
                   autofocus="true"
                   maxlength="256"
-                  name="email-2"
+                  name="email"
                   data-name="Email 2"
                   placeholder="Email"
                   type="email"
@@ -244,7 +240,7 @@
                   placeholder="Message"
                   maxlength="5000"
                   id="field-2"
-                  name="field-2"
+                  name="message"
                   data-name="Field 2"
                   class="messagearea w-input"
                 ></textarea
@@ -267,11 +263,7 @@
             id="w-node-_3eb787d9-aabf-b5a1-0466-69b8a0cd3908-a0cd38d4"
             class="w-layout-cell cell-106"
           >
-            <img
-              src="../images/🌎 Map Maker_  (Standard).svg"
-              loading="lazy"
-              alt=""
-            />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d303.20239651148125!2d78.11462321366645!3d9.92420130645338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1726649829827!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
@@ -287,7 +279,7 @@
             class="w-layout-cell cell-75"
           >
             <img
-              src="../images/logo2.png"
+              src="../images/logo web.png"
               loading="lazy"
               alt="logo"
               class="footerlogo"
@@ -299,9 +291,9 @@
             class="w-layout-cell cell-76"
           >
             <a href="/index.html" class="footerlink">home</a
-            ><a href="/pages/champion.html" class="footerlink">Champions</a
-            ><a href="/pages/gallery.html" class="footerlink">gallery</a
-            ><a href="/pages/service.html" class="footerlink">service</a
+            ><a href="./champion.html" class="footerlink">Champions</a
+            ><a href="./gallery.html" class="footerlink">gallery</a
+            ><a href="./service.html" class="footerlink">service</a
             ><a href="#" class="footerlink">contact</a>
           </div>
           <div
@@ -311,16 +303,20 @@
             <img
               src="../images/fb icon.svg"
               loading="lazy"
-              alt=""
+              alt="fb"
               class="image-22"
             /><img
               src="../images/instagram icon.svg"
               loading="lazy"
-              alt=""
-            /><img src="../images/twitter icon.svg" loading="lazy" alt="" /><img
+              alt="instagram"
+            /><img
+              src="../images/twitter icon.svg"
+              loading="lazy"
+              alt="twitter"
+            /><img
               src="../images/whatsapp icon.svg"
               loading="lazy"
-              alt=""
+              alt="whatsapp"
             />
           </div>
           <div

@@ -4594,7 +4594,7 @@ textarea.w-select {
 .upcomingsection {
   background-image: linear-gradient(259deg, #adaeaf 21% 51%, #64676e 84%);
   width: 100%;
-  height: 650px;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -4602,11 +4602,11 @@ textarea.w-select {
 .upcomingcontainer {
   max-width: 1300px;
   height: auto;
-  max-height: 625px;
+  max-height: 325px;
 }
 
 .upcominggrid {
-  height: 600px;
+  height: 500px;
 }
 
 .upcomingnaviagtion {
@@ -4674,6 +4674,7 @@ textarea.w-select {
   max-height: none;
   margin: auto auto 30px;
   padding-top: 20px;
+  margin-bottom: 60px;
 }
 
 .div-block-26 {
@@ -4855,7 +4856,7 @@ textarea.w-select {
 }
 
 .ourmissionvisionsection {
-  background-image: linear-gradient(#d5dce0 41%, #8fbad4 55%);
+  background-color:  #71b7e2;
   height: 1140px;
 }
 
@@ -4893,6 +4894,7 @@ textarea.w-select {
   align-self: auto;
   font-size: 18px;
   line-height: 25px;
+  text-align: center;
 }
 
 .cell-42 {
@@ -4906,6 +4908,7 @@ textarea.w-select {
   text-transform: capitalize;
   font-size: 18px;
   line-height: 25px;
+  text-align: center;
 }
 
 .heading-46,
@@ -12047,7 +12050,7 @@ textarea.w-select {
   }
 
   .upcomingsection {
-    height: 2500px;
+    height: 1200px;
   }
 
   .cell-33 {
@@ -13640,7 +13643,14 @@ textarea.w-select {
     grid-column: span 3 / span 3;
   }
 }
-
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  .upcomingsection{
+    height: 1000px;
+  }
+  .upcominggrid{
+    margin-top: 50px;
+  }
+}
 @media screen and (max-width: 767px) {
   #w-node-_88f1e3c1-0fa1-144a-fa54-68eff78258d8-f78258d6 {
     grid-template-rows: auto;

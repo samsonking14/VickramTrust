@@ -24,6 +24,11 @@ summary {
   display: block;
 }
 
+iframe{
+  width: 100%;
+  height: 400px;
+}
+
 audio,
 canvas,
 progress,
@@ -3776,6 +3781,7 @@ textarea.w-select {
 }
 
 .navbar-2 {
+  z-index: 9;
   background-color: #dddddd4d;
   border-radius: 100px;
   justify-content: space-between;
@@ -4790,7 +4796,7 @@ textarea.w-select {
   justify-content: center;
   align-items: flex-start;
   width: 600px;
-  height: 250px;
+  height: 300px;
   margin-top: 280px;
   margin-left: 200px;
   display: flex;
@@ -4808,7 +4814,7 @@ textarea.w-select {
   justify-content: center;
   align-self: auto;
   align-items: center;
-  width: 575px;
+  width: 675px;
   height: auto;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -4828,8 +4834,9 @@ textarea.w-select {
   text-transform: capitalize;
   border: 1px #000;
   width: 500px;
+  margin-bottom: 0;
   margin-left: 0;
-  margin-right: 50px;
+  margin-right: 0;
   font-family: Exo, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -4867,15 +4874,10 @@ textarea.w-select {
   margin-bottom: 70px;
 }
 
-.cell-40 {
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-}
-
+.cell-40,
 .cell-41 {
   flex-flow: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -4885,8 +4887,9 @@ textarea.w-select {
 }
 
 .image-20 {
+  border-radius: 100px;
   margin-left: 0;
-  margin-right: 43px;
+  margin-right: 40px;
 }
 
 .paragraph-11 {
@@ -4894,6 +4897,7 @@ textarea.w-select {
   text-transform: capitalize;
   align-self: auto;
   font-size: 18px;
+  line-height: 25px;
 }
 
 .cell-42 {
@@ -4906,6 +4910,7 @@ textarea.w-select {
   font-family: var(--exo);
   text-transform: capitalize;
   font-size: 18px;
+  line-height: 25px;
 }
 
 .heading-46,
@@ -5543,7 +5548,7 @@ textarea.w-select {
 .becomevolteersection {
   background-color: #e3e7e8;
   width: 100%;
-  height: 520px;
+  height: 550px;
 }
 
 .becomevolunteercontainer {
@@ -5586,8 +5591,9 @@ textarea.w-select {
 }
 
 .cell-86 {
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
+  display: block;
 }
 
 .volunteersheading {
@@ -5874,7 +5880,7 @@ textarea.w-select {
   flex-flow: row;
   justify-content: center;
   align-items: center;
-  width: 85%;
+  width: 100%;
   height: auto;
   margin-top: 35px;
   display: block;
@@ -5892,13 +5898,13 @@ textarea.w-select {
 .popupmember {
   background-color: #aba4a4;
   border-radius: 50px;
-  width: 40%;
-  height: 400px;
+  width: 50%;
+  height: 410px;
   margin-top: 0;
   margin-left: 0;
-  display: none;
+  display: block;
   position: absolute;
-  inset: 85% 0% 0% 29%;
+  inset: 25% 0% 0% 29%;
 }
 
 .closeblock {
@@ -6102,6 +6108,7 @@ textarea.w-select {
 .servicesection {
   width: 100%;
   height: 700px;
+  margin-top: 0;
   display: block;
 }
 
@@ -6142,6 +6149,7 @@ textarea.w-select {
 
 .servicegrid {
   font-family: var(--exo);
+  margin-top: 50px;
 }
 
 .serviceicon {
@@ -6190,15 +6198,16 @@ textarea.w-select {
 }
 
 .oaktreesection {
+  z-index: 99;
   font-family: var(--exo);
   background-color: #a31e1e;
   border-radius: 25px;
   width: 70%;
   max-width: 70%;
   height: 50%;
-  display: none;
+  display: block;
   position: absolute;
-  inset: 90% 0% 0% 16%;
+  inset: 25% 0% 0% 16%;
 }
 
 .container-21,
@@ -6431,13 +6440,13 @@ textarea.w-select {
   height: 1000px;
 }
 
-.upcomingeventsection {
+.recenteventpagesection {
   width: 100%;
   height: 1500px;
   display: block;
 }
 
-.upcomingeventcontainer {
+.recenteventpagecontainer {
   max-width: 1200px;
   height: 1000px;
 }
@@ -6451,7 +6460,7 @@ textarea.w-select {
   font-weight: 900;
 }
 
-.upcomingsectiongrid {
+.recenteventpagesectiongrid {
   font-family: var(--exo);
   margin-top: 60px;
 }
@@ -6506,7 +6515,7 @@ textarea.w-select {
 .cell-122 {
   flex-flow: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .cell-123 {
@@ -6559,20 +6568,28 @@ textarea.w-select {
 .eventlocation1 {
   font-family: var(--exo);
   text-transform: uppercase;
-  margin-left: 24px;
+  margin-left: 0;
   font-size: 30px;
   font-weight: 900;
 }
 
 .image-36 {
-  width: 900px;
-  height: 400px;
-  margin-left: 26px;
+  text-align: left;
+  order: 0;
+  align-self: auto;
+  width: 80%;
+  height: 300px;
+  margin-left: 0;
+}
+
+.eventcell {
+  padding-top: 0;
 }
 
 .eventtitle2 {
   text-transform: uppercase;
-  font-size: 30px;
+  margin-bottom: 0;
+  font-size: 20px;
 }
 
 .eventbtn2 {
@@ -6582,6 +6599,8 @@ textarea.w-select {
   text-transform: uppercase;
   background-color: #3898ec00;
   outline: 4px solid #3898ec;
+  margin-top: 30px;
+  padding-bottom: 9px;
   font-weight: 700;
 }
 
@@ -6716,10 +6735,13 @@ textarea.w-select {
   text-transform: uppercase;
   border: 3px solid #000;
   border-radius: 50px;
-  margin-right: 88px;
+  align-self: flex-start;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
   font-weight: 900;
   display: block;
-  position: absolute;
+  position: static;
   inset: auto -4% 2% auto;
 }
 
@@ -6832,7 +6854,7 @@ textarea.w-select {
   margin-left: auto;
   display: none;
   position: absolute;
-  inset: 90% auto auto 15%;
+  inset: 25% auto auto 15%;
 }
 
 .palmtreeclosebtn {
@@ -6870,12 +6892,12 @@ textarea.w-select {
   flex-flow: row;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 100%;
   height: auto;
   margin-bottom: 0;
   padding-bottom: 0;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto 15% 15% auto;
 }
 
@@ -6913,9 +6935,9 @@ textarea.w-select {
 .benefit2pointdiv {
   background-color: #fff;
   border-radius: 10px;
-  width: 30%;
+  width: 100%;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto auto 25% 10%;
 }
 
@@ -6956,9 +6978,9 @@ textarea.w-select {
 .benefit3pointdiv {
   background-color: #fff;
   border-radius: 10px;
-  width: 36%;
+  width: 100%;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto 5% 25% auto;
 }
 
@@ -6992,11 +7014,11 @@ textarea.w-select {
   color: #000;
   background-color: #fff;
   border-radius: 10px;
-  width: 30%;
+  width: 100%;
   font-weight: 500;
   text-decoration: none;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto auto 27% 7%;
 }
 
@@ -7006,12 +7028,12 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 33%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto 5% 25% auto;
 }
 
@@ -7164,7 +7186,7 @@ textarea.w-select {
   border-radius: 50px;
   width: 15px;
   height: 15px;
-  display: none;
+  display: block;
   position: absolute;
   inset: 38% 0% 0% 53%;
 }
@@ -7177,13 +7199,13 @@ textarea.w-select {
   font-family: var(--exo);
   background-color: #fff;
   border-radius: 10px;
-  width: 22%;
+  width: 100%;
   height: auto;
   margin-top: auto;
   margin-left: auto;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto 15% 25% auto;
 }
 
@@ -7199,12 +7221,12 @@ textarea.w-select {
   color: #000;
   background-color: #fff;
   border-radius: 10px;
-  width: 27%;
+  width: 100%;
   height: auto;
   margin-bottom: 0;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto auto 25% 10%;
 }
 
@@ -7222,11 +7244,11 @@ textarea.w-select {
   color: #000;
   background-color: #fff;
   border-radius: 10px;
-  width: 29%;
+  width: 100%;
   height: auto;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto 10% 25% auto;
 }
 
@@ -7241,10 +7263,10 @@ textarea.w-select {
   color: #000;
   background-color: #fff;
   border-radius: 10px;
-  width: 25%;
+  width: 100%;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto auto 25% 13%;
 }
 
@@ -7259,11 +7281,11 @@ textarea.w-select {
   color: #000;
   background-color: #fff;
   border-radius: 10px;
-  width: 22%;
+  width: 100%;
   height: auto;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto auto 25% 15%;
 }
 
@@ -7277,11 +7299,11 @@ textarea.w-select {
   color: #000;
   background-color: #fff;
   border-radius: 10px;
-  width: 26%;
+  width: 100%;
   height: auto;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto 13% 25% auto;
 }
 
@@ -7295,11 +7317,11 @@ textarea.w-select {
   color: #000;
   background-color: #fff;
   border-radius: 10px;
-  width: 32%;
+  width: 100%;
   height: auto;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto 8% 25% auto;
 }
 
@@ -7373,12 +7395,12 @@ textarea.w-select {
   color: #000;
   background-color: #fff;
   border-radius: 10px;
-  width: 30%;
+  width: 100%;
   height: auto;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto 11% 25% auto;
 }
 
@@ -7392,11 +7414,11 @@ textarea.w-select {
   color: #000;
   background-color: #fff;
   border-radius: 10px;
-  width: 29%;
+  width: 100%;
   height: auto;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto auto 25% 10%;
 }
 
@@ -7405,11 +7427,11 @@ textarea.w-select {
   font-family: var(--exo);
   color: #000;
   border-radius: 10px;
-  width: 28%;
+  width: 100%;
   height: auto;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto auto 25% 10%;
 }
 
@@ -7419,11 +7441,11 @@ textarea.w-select {
   -webkit-text-stroke-color: #000;
   background-color: #fff;
   border-radius: 10px;
-  width: 32%;
+  width: 100%;
   height: auto;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto 7% 25% auto;
 }
 
@@ -7447,11 +7469,11 @@ textarea.w-select {
   color: #000;
   background-color: #fff;
   border-radius: 10px;
-  width: 53%;
+  width: 100%;
   height: auto;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto 25% 18% auto;
 }
 
@@ -7514,9 +7536,11 @@ textarea.w-select {
   border: 3px solid #3898ec;
   font-family: Exo, sans-serif;
   font-weight: 900;
+  text-decoration: none;
 }
 
 .oaktreebenefit:hover {
+  color: #fff;
   background-color: #3898ec;
 }
 
@@ -7802,11 +7826,11 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 27%;
+  width: 350px;
   height: auto;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 46% auto auto 56%;
 }
 
@@ -7820,10 +7844,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 35%;
+  width: 262px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 2%;
 }
 
@@ -7837,10 +7861,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 33%;
+  width: 300px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 59%;
 }
 
@@ -7854,10 +7878,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 29%;
+  width: 300px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 10%;
 }
 
@@ -7872,10 +7896,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 33%;
+  width: 300px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 8% auto auto;
 }
 
@@ -7934,10 +7958,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 33%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 5% auto auto;
 }
 
@@ -7951,10 +7975,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 32%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 5%;
 }
 
@@ -7968,10 +7992,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 36%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 5% auto auto;
 }
 
@@ -8030,10 +8054,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 34%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 7% auto auto;
 }
 
@@ -8043,10 +8067,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 33%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 6%;
 }
 
@@ -8056,10 +8080,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 35%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 7% auto auto;
 }
 
@@ -8075,10 +8099,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 44%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 41% 7% auto auto;
 }
 
@@ -8182,10 +8206,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 27%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 10% auto auto;
 }
 
@@ -8199,10 +8223,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 30%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: auto auto 25% 8%;
 }
 
@@ -8216,10 +8240,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 30%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 7% auto auto;
 }
 
@@ -8233,10 +8257,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 28%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 8%;
 }
 
@@ -8250,10 +8274,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 32%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 5% auto auto;
 }
 
@@ -8267,10 +8291,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 31%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 7%;
 }
 
@@ -8380,10 +8404,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 26%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 11% auto auto;
 }
 
@@ -8397,10 +8421,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 29%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 8%;
 }
 
@@ -8414,10 +8438,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 29%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 9%;
 }
 
@@ -8431,10 +8455,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 26%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 10% auto auto;
 }
 
@@ -8448,10 +8472,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 24%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 11%;
 }
 
@@ -8465,10 +8489,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 28%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 8% auto auto;
 }
 
@@ -8572,10 +8596,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 33%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 63% 12% auto auto;
 }
 
@@ -8585,10 +8609,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 30%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 63% auto auto 12%;
 }
 
@@ -8598,10 +8622,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 26%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 14% auto auto;
 }
 
@@ -8611,10 +8635,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 20%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 16%;
 }
 
@@ -8624,10 +8648,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 22%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% 15% auto auto;
 }
 
@@ -8637,10 +8661,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 24%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 50% auto auto 13%;
 }
 
@@ -8659,10 +8683,10 @@ textarea.w-select {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  width: 29%;
+  width: 350px;
   font-weight: 500;
   display: none;
-  position: absolute;
+  position: static;
   inset: 42% auto auto 8%;
 }
 
@@ -8747,7 +8771,7 @@ textarea.w-select {
 
 .navbar-6 {
   width: 200px;
-  display: block;
+  display: none;
   position: fixed;
   inset: 0% auto 0% 0%;
 }
@@ -8939,7 +8963,7 @@ textarea.w-select {
 }
 
 .ourhistorygrid {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 70px;
 }
 
@@ -9028,6 +9052,7 @@ textarea.w-select {
 .memberimg2,
 .memberimg3,
 .memberimg4 {
+  cursor: pointer;
   border: 5px solid #1da1f2;
   border-radius: 100px;
 }
@@ -9037,12 +9062,14 @@ textarea.w-select {
 }
 
 .heading-85 {
+  color: #000;
   text-align: left;
   text-transform: uppercase;
   flex-flow: row;
   justify-content: center;
   align-items: center;
   margin-left: 50px;
+  font-size: 30px;
   display: block;
 }
 
@@ -9124,7 +9151,7 @@ textarea.w-select {
 
 .section-23 {
   width: 100%;
-  height: 1550px;
+  height: 1600px;
 }
 
 .collection-list-3 {
@@ -9170,6 +9197,252 @@ textarea.w-select {
   height: 400px;
 }
 
+.cell-151 {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.heading-88 {
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.cell-152 {
+  justify-content: center;
+  align-items: center;
+}
+
+.image-43 {
+  height: 300px;
+}
+
+.oaktreepopupblock {
+  z-index: 9;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  inset: 0%;
+}
+
+.oaktreepopupsubblock {
+  filter: blur(1px);
+  background-color: #1a1f1b26;
+  width: 100%;
+  height: 100%;
+}
+
+.palmtreepopupblock {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  inset: 0%;
+}
+
+.palmtreepopupsubblock {
+  filter: blur(1px);
+  background-color: #00000026;
+  width: 100%;
+  height: 100%;
+}
+
+.membersliderblock {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  inset: 0%;
+}
+
+.membersectionsubblock {
+  filter: blur(1px);
+  background-color: #00000026;
+  width: 100%;
+  height: 100%;
+}
+
+.memberdiv1 {
+  color: #000;
+  background-color: #afa3a3;
+  border-radius: 10px;
+  width: 20%;
+  height: 170px;
+  display: none;
+  position: absolute;
+  top: 110%;
+  overflow: visible;
+}
+
+.paragraph-22 {
+  text-align: center;
+  text-transform: none;
+  width: auto;
+  height: auto;
+  margin: 5px;
+  overflow: visible;
+}
+
+.oaktreesectionpage {
+  background-image: linear-gradient(#00000080, #00000080),
+    url("https://cdn.prod.website-files.com/66b31c87a9bec205c07cf449/66e451a8173e69e99f3940df_oak-tree-in-full-leaf-standing-alone-in-a-field-in-summer-against-a-white-background-1024x683.jpg");
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  width: 100%;
+  height: 900px;
+}
+
+.oaktreesectionpagecontainer {
+  max-width: 1200px;
+  height: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell-157 {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell-158 {
+  display: block;
+}
+
+.palmtreesectionpage {
+  background-image: linear-gradient(#00000080, #00000080),
+    url("https://cdn.prod.website-files.com/66b31c87a9bec205c07cf449/66e4a08d013907c9c04b35ff_C%C3%A2y_th%E1%BB%91t_n%E1%BB%91t.jpg");
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  width: 100%;
+  height: 700px;
+}
+
+.palmtreepagecontainer {
+  height: 900px;
+}
+
+.cell-159 {
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-44,
+.image-45 {
+  border-radius: 100px;
+  margin-right: 40px;
+}
+
+.image-46 {
+  border-radius: 100px;
+}
+
+.dashboarddivblock {
+  width: 100%;
+  height: 100%;
+}
+
+.galley-flex-virtical {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+}
+
+.gallerycontainerflex {
+  width: 100%;
+  height: 100%;
+}
+
+.div-block-38 {
+  column-count: 3;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  margin-bottom: 0;
+  display: block;
+}
+
+.lightbox-link-2,
+.lightbox-link-3,
+.lightbox-link-4 {
+  margin-bottom: 20px;
+}
+
+.lightbox-link-5 {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.image-47 {
+  margin-bottom: 20px;
+}
+
+.image-48,
+.image-49,
+.image-50 {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.image-51 {
+  margin-bottom: 0;
+}
+
+.slide-nav-3 {
+  display: none;
+}
+
+.slider-3 {
+  background-color: #ddd0;
+  height: 700px;
+}
+
+.left-arrow-3 {
+  inset: 0% 14% auto auto;
+}
+
+.right-arrow-3 {
+  inset: 0% 0% auto auto;
+}
+
+.image-52,
+.image-53 {
+  width: 60px;
+}
+
+.image-54 {
+  width: 900px;
+  height: 400px;
+}
+
+.quick-stack-30 {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.quick-stack-31,
+.quick-stack-32,
+.quick-stack-33 {
+  padding-top: 0;
+}
+@media screen and (max-width: 1024px){
+  .eventtitle2{
+font-size: 18px;
+  }
+}
 @media screen and (max-width: 991px) {
   .container-2 {
     max-width: 728px;
@@ -9547,6 +9820,7 @@ textarea.w-select {
     align-items: center;
     margin-top: 295px;
     margin-left: 92px;
+    display: flex;
   }
 
   .heroh1 {
@@ -9565,12 +9839,19 @@ textarea.w-select {
     margin-bottom: 140px;
   }
 
+  .cell-41 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
   .image-20 {
     margin-right: 22px;
   }
 
   .paragraph-11,
   .paragraph-12 {
+    text-align: center;
     font-size: 15px;
   }
 
@@ -9620,7 +9901,10 @@ textarea.w-select {
     align-items: center;
   }
 
-  .staticssection,
+  .staticssection {
+    height: 600px;
+  }
+
   .staticscontainer {
     height: 300px;
   }
@@ -9662,14 +9946,24 @@ textarea.w-select {
   }
 
   .becomevolteersection {
-    height: 850px;
+    height: 925px;
   }
 
   .div-block-28 {
     overflow: visible;
   }
 
-  .cell-86,
+  .cell-85 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell-86 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
   .cell-87 {
     justify-content: center;
     align-items: center;
@@ -9697,6 +9991,11 @@ textarea.w-select {
     height: 200px;
   }
 
+  .cell-91 {
+    flex-flow: column;
+    display: flex;
+  }
+
   .div-block-32 {
     justify-content: center;
     align-self: auto;
@@ -9711,6 +10010,13 @@ textarea.w-select {
     font-size: 14px;
   }
 
+  .cell-92 {
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
   .section-15 {
     height: 625px;
   }
@@ -9720,7 +10026,7 @@ textarea.w-select {
   }
 
   .image-25 {
-    margin-left: 600px;
+    margin-left: 500px;
   }
 
   .cell-94 {
@@ -9730,7 +10036,11 @@ textarea.w-select {
   }
 
   .documentsection {
-    height: 700px;
+    height: 800px;
+  }
+
+  .documentdiv {
+    width: 80%;
   }
 
   .documenttitle {
@@ -9741,9 +10051,14 @@ textarea.w-select {
     font-size: 16px;
   }
 
+  .container-18 {
+    height: 410px;
+  }
+
   .detailparadiv {
     width: 90%;
     height: auto;
+    margin-top: 0;
     font-size: 14px;
   }
 
@@ -9751,7 +10066,16 @@ textarea.w-select {
     width: 70%;
     margin-top: 0;
     margin-left: 0;
-    left: 18%;
+    inset: 25% 15% auto auto;
+  }
+
+  .closeblock {
+    top: -6%;
+    right: 4%;
+  }
+
+  .closeicon {
+    color: red;
   }
 
   .gallerysection {
@@ -9804,7 +10128,7 @@ textarea.w-select {
   .oaktreesection {
     width: 91%;
     max-width: 100%;
-    display: none;
+    display: block;
     left: 5%;
   }
 
@@ -9820,13 +10144,18 @@ textarea.w-select {
     margin-top: 0;
   }
 
-  .upcomingeventsection {
-    height: 2100px;
+  .recenteventpagesection {
+    height: 2000px;
   }
 
   .cell-116,
   .cell-117,
-  .cell-118,
+  .cell-118 {
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+
   .cell-119 {
     flex-flow: column;
     justify-content: center;
@@ -9861,7 +10190,9 @@ textarea.w-select {
   }
 
   .cell-122 {
-    justify-content: flex-start;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
     align-items: center;
   }
 
@@ -9872,6 +10203,10 @@ textarea.w-select {
     display: flex;
   }
 
+  .eventpara1 {
+    text-align: center;
+  }
+
   .eventtime1,
   .eventtime2,
   .eventplace1 {
@@ -9879,8 +10214,18 @@ textarea.w-select {
   }
 
   .image-36 {
-    width: 700px;
+    width: 500px;
+    height: 260px;
     margin-left: 0;
+  }
+
+  .eventcell {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .eventbtn2 {
+    margin-top: 20px;
   }
 
   .loginimg {
@@ -9895,6 +10240,7 @@ textarea.w-select {
   }
 
   .oaktreeapplybtn {
+    align-self: center;
     inset: auto -5% 2% auto;
   }
 
@@ -9902,7 +10248,7 @@ textarea.w-select {
     width: 91%;
     max-width: 100%;
     margin-left: auto;
-    display: none;
+    display: block;
     bottom: -69%;
     left: 4%;
   }
@@ -9917,7 +10263,7 @@ textarea.w-select {
   }
 
   .benefit1pointdiv {
-    width: 26%;
+    width: 100%;
     height: auto;
     display: none;
     inset: auto 18% 20% auto;
@@ -9934,7 +10280,7 @@ textarea.w-select {
   }
 
   .benefit2pointdiv {
-    width: 30%;
+    width: 100%;
     display: none;
     inset: auto auto 25% 9%;
   }
@@ -9944,7 +10290,7 @@ textarea.w-select {
   }
 
   .benefit3pointdiv {
-    width: 39%;
+    width: 100%;
     display: none;
     inset: auto 5% 25% auto;
   }
@@ -9954,13 +10300,13 @@ textarea.w-select {
   }
 
   .benefit4pointdiv {
-    width: 32%;
+    width: 100%;
     display: none;
     inset: auto auto 22% 8%;
   }
 
   .benefit5pointdiv {
-    width: 39%;
+    width: 100%;
     margin-left: auto;
     display: none;
     inset: auto 6% 20% auto;
@@ -10004,7 +10350,7 @@ textarea.w-select {
   }
 
   .uses1pointdiv {
-    width: 26%;
+    width: 100%;
     display: none;
     bottom: 22%;
     left: auto;
@@ -10017,25 +10363,25 @@ textarea.w-select {
   }
 
   .uses3pointdiv {
-    width: 30%;
+    width: 100%;
     display: none;
     inset: auto 15% 23% auto;
   }
 
   .uses4pointdiv {
-    width: 26%;
+    width: 100%;
     display: none;
     inset: auto auto 25% 15%;
   }
 
   .uses5pointdiv {
-    width: 28%;
+    width: 100%;
     display: none;
     inset: auto auto 22% 15%;
   }
 
   .uses6pointdiv {
-    width: 31%;
+    width: 100%;
     display: none;
     inset: auto 10% 25% auto;
   }
@@ -10064,10 +10410,10 @@ textarea.w-select {
   }
 
   .conclusiondiv {
-    width: 63%;
+    width: 100%;
     height: auto;
     display: none;
-    position: absolute;
+    position: static;
   }
 
   .text-block-19 {
@@ -10115,26 +10461,31 @@ textarea.w-select {
   }
 
   .oaktree1pointdiv {
-    width: 40%;
+    width: 350px;
+    display: none;
     top: 40%;
   }
 
   .oaktree2pointdiv {
-    width: 38%;
+    width: 300px;
+    display: none;
   }
 
   .oaktree3pointdiv {
-    width: 40%;
+    width: 350px;
+    display: none;
     left: 56%;
   }
 
   .oaktree4pointdiv {
-    width: 36%;
+    width: 350px;
+    display: none;
     left: 4%;
   }
 
   .oaktree5pointdiv {
-    width: 35%;
+    width: 350px;
+    display: none;
     top: 47%;
   }
 
@@ -10143,30 +10494,35 @@ textarea.w-select {
   }
 
   .future1pointdiv {
-    width: 37%;
+    width: 350px;
+    display: none;
     top: 42%;
   }
 
-  .future2pointdiv {
-    width: 34%;
-  }
-
+  .future2pointdiv,
   .future3pointdiv {
-    width: 36%;
+    width: 350px;
+    display: none;
   }
 
   .water1pointdiv {
+    display: none;
     top: 41%;
   }
 
+  .water2pointdiv {
+    display: none;
+  }
+
   .water3pointdiv {
-    width: 35%;
+    width: 350px;
+    display: none;
     top: 48%;
     right: 6%;
   }
 
   .benefitepointdiv {
-    width: 46%;
+    width: 350px;
     display: none;
     top: 35%;
     right: 2%;
@@ -10177,84 +10533,80 @@ textarea.w-select {
   }
 
   .impact2pointdiv {
-    width: 32%;
+    width: 350px;
   }
 
   .impact4pointdiv {
-    width: 34%;
+    width: 350px;
     left: 5%;
   }
 
   .impact5pointdiv {
-    width: 36%;
+    width: 350px;
   }
 
   .impact6pointdiv {
-    width: 36%;
+    width: 350px;
     left: 5%;
   }
 
   .remove1pointdiv {
-    width: 35%;
+    width: 350px;
     right: 4%;
   }
 
-  .remove2pointdiv {
-    width: 32%;
-    left: 6%;
-  }
-
+  .remove2pointdiv,
   .remove3pointdiv {
-    width: 33%;
+    width: 350px;
     left: 6%;
   }
 
   .remove4pointdiv {
-    width: 34%;
+    width: 350px;
     right: 5%;
   }
 
   .remove5pointdiv {
-    width: 35%;
+    width: 350px;
     top: 59%;
   }
 
   .remove6pointdiv {
-    width: 39%;
+    width: 350px;
     right: 2%;
   }
 
   .benefits2pointdiv {
-    width: 42%;
+    width: 350px;
     top: 67%;
     left: 5%;
   }
 
   .benefits3pointdiv {
-    width: 35%;
+    width: 350px;
     top: 57%;
     right: 9%;
   }
 
   .benefits4pointdiv {
-    width: 35%;
+    width: 350px;
     top: 60%;
     left: 6%;
   }
 
   .benefits5pointdiv {
-    width: 41%;
+    width: 350px;
     top: 63%;
     right: 4%;
   }
 
   .benefits6pointdiv {
-    width: 35%;
+    width: 350px;
     top: 63%;
   }
 
   .conclusionoaktreediv2 {
-    width: 35%;
+    width: 350px;
     display: none;
   }
 
@@ -10296,8 +10648,21 @@ textarea.w-select {
     display: none;
   }
 
+  .slider-2 {
+    height: 410px;
+  }
+
+  .left-arrow-2,
+  .right-arrow-2 {
+    bottom: 3%;
+  }
+
   .gallerysection3 {
     height: 800px;
+  }
+
+  .section-23 {
+    height: 1200px;
   }
 
   .image-42 {
@@ -10314,6 +10679,75 @@ textarea.w-select {
 
   .quick-stack-28 {
     height: 300px;
+  }
+
+  .cell-151,
+  .cell-153,
+  .cell-154,
+  .cell-155,
+  .cell-156 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quick-stack-29 {
+    height: auto;
+  }
+
+  .slide-2,
+  .slide-3,
+  .slide-4,
+  .slide-5,
+  .slide-6 {
+    width: 100%;
+  }
+
+  .membersliderblock {
+    display: none;
+  }
+
+  .oaktreesectionpage {
+    background-image: linear-gradient(#00000080, #00000080),
+      url("https://cdn.prod.website-files.com/66b31c87a9bec205c07cf449/66e451a8173e69e99f3940df_oak-tree-in-full-leaf-standing-alone-in-a-field-in-summer-against-a-white-background-1024x683.jpg");
+    background-position: 0 0, 50%;
+    background-size: auto, cover;
+    height: 1300px;
+  }
+
+  .slider-3 {
+    height: 700px;
+  }
+
+  .left-arrow-3 {
+    right: 25%;
+  }
+
+  .right-arrow-3 {
+    right: 15%;
+  }
+
+  .image-54 {
+    width: 700px;
+  }
+
+  .cell-160 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quick-stack-30,
+  .quick-stack-31 {
+    padding-bottom: 0;
+  }
+
+  .quick-stack-32 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-bottom: 0;
+  }
+
+  .quick-stack-33 {
+    padding-bottom: 0;
   }
 }
 
@@ -10615,6 +11049,10 @@ textarea.w-select {
     font-size: 15px;
   }
 
+  .ourmissionvisionsection {
+    height: 1275px;
+  }
+
   .ourvisionmissiongrid2 {
     margin-top: -78px;
     margin-bottom: 0;
@@ -10624,8 +11062,17 @@ textarea.w-select {
     margin-right: 18px;
   }
 
+  .paragraph-11,
+  .paragraph-12 {
+    font-size: 14px;
+  }
+
   .heading-47 {
     font-size: 30px;
+  }
+
+  .recenteventgrid {
+    width: 450px;
   }
 
   .recenteventgrid2 {
@@ -10633,6 +11080,11 @@ textarea.w-select {
     grid-row-gap: 20px;
     width: auto;
     margin-bottom: 0;
+  }
+
+  .cell-46 {
+    justify-content: center;
+    align-items: center;
   }
 
   .recenteventdropdownfaqbtn {
@@ -10643,7 +11095,7 @@ textarea.w-select {
   .recenteventdropdownbtnfaq {
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 450px;
   }
 
   .dropdown-list-2 {
@@ -10667,23 +11119,43 @@ textarea.w-select {
   }
 
   .membersection {
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
     height: 1100px;
+    display: flex;
   }
 
   .memberscontainer {
+    flex-flow: row;
     justify-content: center;
-    align-items: center;
-    display: block;
+    align-items: flex-start;
+    height: 1100px;
+    display: flex;
   }
 
   .membergrid {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     text-align: left;
+    text-transform: none;
+    order: 0;
+    align-self: auto;
+    height: 1100px;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .cell-80 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
   .becomevolteersection {
-    height: 950px;
+    height: 1000px;
   }
 
   .volunteerpara {
@@ -10719,11 +11191,15 @@ textarea.w-select {
   }
 
   .image-25 {
-    margin-left: 324px;
+    margin-left: 250px;
   }
 
   .heading-61 {
     font-size: 24px;
+  }
+
+  .documentpara {
+    font-size: 12px;
   }
 
   .detailparadiv {
@@ -10736,7 +11212,8 @@ textarea.w-select {
     height: 450px;
     margin-top: 0;
     margin-left: 0;
-    top: 106%;
+    display: block;
+    top: 25%;
     left: 10%;
   }
 
@@ -10789,6 +11266,11 @@ textarea.w-select {
     width: 90%;
   }
 
+  .servicegrid {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
   .servicetitle {
     width: 85%;
   }
@@ -10796,11 +11278,14 @@ textarea.w-select {
   .oaktreesection {
     width: 90%;
     height: 65%;
-    display: none;
+    display: block;
   }
 
-  .upcomingeventsection {
-    height: 2100px;
+  .recenteventpagesection {
+    justify-content: center;
+    align-items: center;
+    height: 2200px;
+    display: block;
   }
 
   .cell-117 {
@@ -10818,19 +11303,23 @@ textarea.w-select {
   }
 
   .cell-123 {
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     display: block;
   }
 
   .eventpara1 {
+    text-align: center;
     width: 400px;
     height: 150px;
   }
 
   .image-36 {
+    text-align: left;
+    align-self: center;
     width: 400px;
-    margin-left: 10px;
+    margin-left: 0;
   }
 
   .eventtitle2 {
@@ -10877,16 +11366,23 @@ textarea.w-select {
   }
 
   .palmtreebenefits {
+    align-self: center;
     width: auto;
+  }
+
+  .palmtreeuses {
+    align-self: center;
   }
 
   .palmtreeenvironmental {
     text-align: center;
+    align-self: center;
   }
 
   .palmtreecoclusion {
     text-align: center;
     justify-content: center;
+    align-self: center;
     align-items: center;
     display: block;
   }
@@ -10900,7 +11396,7 @@ textarea.w-select {
     max-width: 100%;
     height: 65%;
     margin-left: auto;
-    display: none;
+    display: block;
     bottom: -78%;
     left: 6%;
   }
@@ -10924,7 +11420,7 @@ textarea.w-select {
   }
 
   .benefit1pointdiv {
-    width: 50%;
+    width: 100%;
     height: auto;
     display: none;
     inset: auto auto 23% 25%;
@@ -10936,7 +11432,7 @@ textarea.w-select {
   }
 
   .benefit2pointdiv {
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     display: none;
     inset: auto auto 23% 25%;
@@ -10948,19 +11444,19 @@ textarea.w-select {
   }
 
   .benefit3pointdiv {
-    width: 51%;
+    width: 100%;
     display: none;
     inset: auto auto 19% 25%;
   }
 
   .benefit4pointdiv {
-    width: 80%;
+    width: 100%;
     display: none;
     inset: auto auto 23% 10%;
   }
 
   .benefit5pointdiv {
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: none;
@@ -11015,7 +11511,7 @@ textarea.w-select {
   }
 
   .uses1pointdiv {
-    width: 46%;
+    width: 100%;
     display: none;
     inset: auto 2px 86px auto;
   }
@@ -11026,7 +11522,7 @@ textarea.w-select {
   }
 
   .uses2pointdiv {
-    width: 41%;
+    width: 100%;
     display: none;
     top: auto;
     bottom: 155px;
@@ -11034,7 +11530,7 @@ textarea.w-select {
   }
 
   .uses3pointdiv {
-    width: 43%;
+    width: 100%;
     display: none;
     inset: auto 2% 23% auto;
   }
@@ -11045,26 +11541,26 @@ textarea.w-select {
   }
 
   .uses4pointdiv {
-    width: 42%;
+    width: 100%;
     display: none;
     inset: auto auto 24% 2%;
   }
 
   .uses5pointdiv {
-    width: 45%;
+    width: 100%;
     display: none;
     inset: auto auto 25% 1%;
   }
 
   .uses6pointdiv {
     text-align: center;
-    width: 50%;
+    width: 100%;
     display: none;
     inset: auto 6% 25% auto;
   }
 
   .uses7pointdiv {
-    width: 45%;
+    width: 100%;
     display: none;
     top: auto;
     left: auto;
@@ -11088,38 +11584,38 @@ textarea.w-select {
   }
 
   .environ1pointdiv {
-    width: 63%;
+    width: 100%;
     display: none;
     bottom: 18%;
   }
 
   .environ2pointdiv {
-    width: 62%;
+    width: 100%;
     display: none;
     top: auto;
     bottom: 113px;
   }
 
   .environ3pointdiv {
-    width: 59%;
+    width: 100%;
     display: none;
     inset: auto auto 15% 4%;
   }
 
   .environ4pointdiv {
-    width: 71%;
+    width: 100%;
     display: none;
     inset: auto 3% 15% auto;
   }
 
   .conclusiondiv {
     order: 0;
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-bottom: 0;
     font-size: 14px;
     display: none;
-    position: absolute;
+    position: static;
     inset: auto auto 20% 5%;
   }
 
@@ -11212,24 +11708,28 @@ textarea.w-select {
   }
 
   .oaktree1pointdiv {
-    width: 60%;
+    width: 100%;
     top: 32%;
     left: 33%;
   }
 
+  .oaktree2pointdiv {
+    width: 100%;
+  }
+
   .oaktree3pointdiv {
-    width: 43%;
+    width: 100%;
     top: 42%;
   }
 
   .oaktree4pointdiv {
-    width: 54%;
+    width: 100%;
     top: 57%;
     left: 18%;
   }
 
   .oaktree5pointdiv {
-    width: 40%;
+    width: 100%;
     right: 2%;
   }
 
@@ -11244,17 +11744,18 @@ textarea.w-select {
   }
 
   .future1pointdiv {
-    width: 39%;
+    width: 100%;
     right: 3%;
   }
 
   .future2pointdiv {
-    width: 38%;
+    width: 100%;
     left: 2%;
   }
 
   .future3pointdiv {
-    width: 42%;
+    width: 100%;
+    display: none;
     top: 56%;
   }
 
@@ -11263,23 +11764,24 @@ textarea.w-select {
   }
 
   .water1pointdiv {
-    width: 38%;
+    width: 100%;
     right: 3%;
   }
 
   .water2pointdiv {
-    width: 42%;
+    width: 100%;
     top: 58%;
     left: 3%;
   }
 
   .water3pointdiv {
-    width: 39%;
+    width: 100%;
     right: 3%;
   }
 
   .benefitepointdiv {
-    width: 77%;
+    width: 100%;
+    display: none;
     top: 61%;
     right: 11%;
   }
@@ -11294,33 +11796,33 @@ textarea.w-select {
   }
 
   .impact1pointdiv {
-    width: 38%;
+    width: 100%;
     top: 57%;
     right: 3%;
   }
 
   .impact2pointdiv {
-    width: 43%;
+    width: 100%;
     bottom: 13%;
   }
 
   .impact3pointdiv {
-    width: 40%;
+    width: 100%;
     top: 60%;
   }
 
   .impact4pointdiv {
-    width: 45%;
+    width: 100%;
     top: 50%;
   }
 
   .impact5pointdiv {
-    width: 45%;
+    width: 100%;
     top: 58%;
   }
 
   .impact6pointdiv {
-    width: 49%;
+    width: 100%;
     top: 60%;
   }
 
@@ -11340,34 +11842,26 @@ textarea.w-select {
     right: 37%;
   }
 
-  .remove1pointdiv {
-    width: 48%;
-    top: 66%;
-  }
-
-  .remove2pointdiv {
-    width: 45%;
-    top: 66%;
-  }
-
+  .remove1pointdiv,
+  .remove2pointdiv,
   .remove3pointdiv {
-    width: 57%;
+    width: 100%;
     top: 66%;
   }
 
   .remove4pointdiv {
-    width: 50%;
+    width: 100%;
     top: 66%;
     right: 8%;
   }
 
   .remove5pointdiv {
-    width: 58%;
+    width: 100%;
     top: 65%;
   }
 
   .remove6pointdiv {
-    width: 53%;
+    width: 100%;
     top: 64%;
   }
 
@@ -11388,36 +11882,43 @@ textarea.w-select {
   }
 
   .benefits1pointdiv {
-    width: 40%;
+    width: 100%;
+    display: none;
     top: 68%;
   }
 
   .benefits2pointdiv {
-    width: 45%;
+    width: 100%;
+    display: none;
   }
 
   .benefits3pointdiv {
+    width: 100%;
+    display: none;
     top: 60%;
     right: 6%;
   }
 
   .benefits4pointdiv {
-    width: 40%;
+    width: 100%;
+    display: none;
     top: 63%;
   }
 
   .benefits5pointdiv {
-    width: 55%;
+    width: 100%;
+    display: none;
     top: 66%;
   }
 
   .benefits6pointdiv {
-    width: 60%;
+    width: 100%;
+    display: none;
     top: 67%;
   }
 
   .conclusionoaktreediv2 {
-    width: 56%;
+    width: 100%;
     top: 34%;
     left: 23%;
   }
@@ -11512,6 +12013,7 @@ textarea.w-select {
   }
 
   .slider {
+    width: 450px;
     display: block;
   }
 
@@ -11520,8 +12022,8 @@ textarea.w-select {
   }
 
   .heading-85 {
-    text-align: center;
-    margin-left: 40px;
+    text-align: left;
+    margin-left: 0;
   }
 
   .gallerysection3 {
@@ -11533,11 +12035,67 @@ textarea.w-select {
   }
 
   .section-23 {
-    height: 2500px;
+    height: 1900px;
   }
 
   .collection-list-3 {
     column-count: 2;
+  }
+
+  .oaktreepopupblock {
+    display: none;
+  }
+
+  .oaktreesectionpage {
+    height: 2300px;
+  }
+
+  .oaktreesectiongrid {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cell-157 {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-flow: column;
+  }
+
+  .cell-158 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .palmtreesectionpage {
+    height: 1000px;
+  }
+
+  .cell-159 {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    text-align: left;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider-3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .left-arrow-3 {
+    right: 15%;
+  }
+
+  .right-arrow-3 {
+    right: 0%;
+  }
+
+  .image-54 {
+    width: 450px;
+    display: block;
   }
 }
 
@@ -11757,12 +12315,19 @@ textarea.w-select {
     margin-top: -80px;
   }
 
-  .paragraph-11,
-  .paragraph-12 {
+  .paragraph-11 {
     font-size: 14px;
   }
 
-  .heading-46,
+  .paragraph-12 {
+    width: 275px;
+    font-size: 14px;
+  }
+
+  .heading-46 {
+    font-size: 25px;
+  }
+
   .heading-47 {
     font-size: 30px;
   }
@@ -11838,7 +12403,7 @@ textarea.w-select {
   }
 
   .staticssection {
-    height: 1200px;
+    height: 1100px;
   }
 
   .footer {
@@ -11872,6 +12437,14 @@ textarea.w-select {
   }
 
   .membersection {
+    height: 1800px;
+  }
+
+  .memberscontainer {
+    height: 1700px;
+  }
+
+  .membergrid {
     height: 1800px;
   }
 
@@ -11978,6 +12551,10 @@ textarea.w-select {
     font-size: 12px;
   }
 
+  .documentsection {
+    height: 750px;
+  }
+
   .documenttitle {
     font-size: 15px;
   }
@@ -12000,6 +12577,8 @@ textarea.w-select {
   .popupmember {
     height: 700px;
     margin-left: 0;
+    display: block;
+    top: 16%;
     left: 10%;
   }
 
@@ -12043,6 +12622,11 @@ textarea.w-select {
     height: 1600px;
   }
 
+  .cell-100 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
   .heading-66 {
     width: 80%;
     font-size: 13px;
@@ -12053,14 +12637,19 @@ textarea.w-select {
     margin-bottom: 0;
   }
 
+  .servicegrid {
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+  }
+
   .servicetitle {
     width: 100%;
   }
 
   .oaktreesection {
     height: 90%;
-    display: none;
-    top: 110%;
+    display: block;
+    top: 5%;
   }
 
   .contactsection {
@@ -12097,16 +12686,29 @@ textarea.w-select {
     margin-left: 75px;
   }
 
-  .upcomingeventsection {
-    height: 2600px;
+  .recenteventpagesection {
+    height: 2700px;
+  }
+
+  .cell-116 {
+    flex-flow: column;
   }
 
   .cell-117,
-  .cell-118,
+  .cell-118 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .cell-121,
   .cell-122 {
     justify-content: center;
     align-items: center;
+  }
+
+  .eventtitle1 {
+    color: #000;
   }
 
   .eventpara1 {
@@ -12115,9 +12717,23 @@ textarea.w-select {
     font-size: 12px;
   }
 
+  .eventtime1,
+  .eventplace1,
+  .eventlocation1 {
+    color: #000;
+  }
+
   .image-36 {
     height: 275px;
     margin-left: 0;
+  }
+
+  .moreeventgrid {
+    margin-top: 60px;
+  }
+
+  .eventtitle2 {
+    color: #000;
   }
 
   .adminloginsection {
@@ -12182,7 +12798,7 @@ textarea.w-select {
     width: 90%;
     height: 90%;
     margin-left: auto;
-    display: none;
+    display: block;
     bottom: -92%;
     left: 6%;
   }
@@ -12197,7 +12813,7 @@ textarea.w-select {
   }
 
   .benefit1pointdiv {
-    width: 90%;
+    width: 100%;
     height: auto;
     display: none;
     inset: auto auto 25% 5%;
@@ -12209,7 +12825,7 @@ textarea.w-select {
   }
 
   .benefit2pointdiv {
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     display: none;
     inset: auto auto 25% 5%;
@@ -12221,19 +12837,19 @@ textarea.w-select {
   }
 
   .benefit3pointdiv {
-    width: 95%;
+    width: 100%;
     display: none;
     inset: auto auto 25% 3%;
   }
 
   .benefit4pointdiv {
-    width: 90%;
+    width: 100%;
     display: none;
     inset: auto auto 25% 5%;
   }
 
   .benefit5pointdiv {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: none;
@@ -12293,42 +12909,36 @@ textarea.w-select {
   }
 
   .uses1pointdiv {
-    width: 85%;
+    width: 100%;
     font-size: 14px;
     display: none;
     inset: auto auto 25% 7%;
   }
 
-  .uses2pointdiv {
-    width: 85%;
-    font-size: 14px;
-    display: none;
-    inset: auto auto 25% 5%;
-  }
-
+  .uses2pointdiv,
   .uses3pointdiv {
-    width: 90%;
+    width: 100%;
     font-size: 14px;
     display: none;
     inset: auto auto 25% 5%;
   }
 
   .uses4pointdiv {
-    width: 80%;
+    width: 100%;
     font-size: 14px;
     display: none;
     inset: auto auto 25% 10%;
   }
 
   .uses5pointdiv {
-    width: 90%;
+    width: 100%;
     font-size: 14px;
     display: none;
     inset: auto auto 25% 5%;
   }
 
   .uses6pointdiv {
-    width: 90%;
+    width: 100%;
     display: none;
     inset: auto auto 25% 5%;
   }
@@ -12339,7 +12949,7 @@ textarea.w-select {
 
   .uses7pointdiv {
     color: #000;
-    width: 93%;
+    width: 100%;
     height: auto;
     display: none;
     inset: auto auto 25% 4%;
@@ -12374,25 +12984,25 @@ textarea.w-select {
   }
 
   .environ1pointdiv {
-    width: 78%;
+    width: 100%;
     display: none;
     inset: auto auto 23% 11%;
   }
 
   .environ2pointdiv {
-    width: 89%;
+    width: 100%;
     display: none;
     inset: auto auto 24% 5%;
   }
 
   .environ3pointdiv {
-    width: 92%;
+    width: 100%;
     display: none;
     inset: auto auto 24% 4%;
   }
 
   .environ4pointdiv {
-    width: 91%;
+    width: 100%;
     display: none;
     bottom: 21%;
     right: 5%;
@@ -12496,30 +13106,30 @@ textarea.w-select {
   }
 
   .oaktree1pointdiv {
-    width: 92%;
+    width: 100%;
     top: 58%;
     left: 5%;
   }
 
   .oaktree2pointdiv {
-    width: 93%;
+    width: 100%;
     top: 56%;
     left: 3%;
   }
 
   .oaktree3pointdiv {
-    width: 90%;
+    width: 100%;
     top: 60%;
     left: 5%;
   }
 
   .oaktree4pointdiv {
-    width: 90%;
+    width: 100%;
     left: 5%;
   }
 
   .oaktree5pointdiv {
-    width: 90%;
+    width: 100%;
     top: 59%;
     right: 4%;
   }
@@ -12543,18 +13153,18 @@ textarea.w-select {
   }
 
   .future1pointdiv {
-    width: 90%;
+    width: 100%;
     top: 57%;
     right: 5%;
   }
 
   .future2pointdiv {
-    width: 90%;
+    width: 100%;
     left: 5%;
   }
 
   .future3pointdiv {
-    width: 90%;
+    width: 100%;
     display: none;
   }
 
@@ -12575,19 +13185,19 @@ textarea.w-select {
   }
 
   .water1pointdiv {
-    width: 90%;
+    width: 100%;
     top: 57%;
     right: 5%;
   }
 
   .water2pointdiv {
-    width: 90%;
+    width: 100%;
     left: 5%;
   }
 
   .water3pointdiv,
   .benefitepointdiv {
-    width: 90%;
+    width: 100%;
     right: 5%;
   }
 
@@ -12626,32 +13236,32 @@ textarea.w-select {
   }
 
   .impact1pointdiv {
-    width: 80%;
+    width: 100%;
     display: none;
     top: 60%;
     right: 7%;
   }
 
   .impact2pointdiv {
-    width: 80%;
+    width: 100%;
     bottom: 28%;
     left: 13%;
   }
 
   .impact3pointdiv {
-    width: 98%;
+    width: 100%;
     right: 1%;
   }
 
   .impact4pointdiv {
-    width: 90%;
+    width: 100%;
     display: none;
     top: 52%;
   }
 
   .impact5pointdiv,
   .impact6pointdiv {
-    width: 90%;
+    width: 100%;
   }
 
   .oaktree {
@@ -12693,38 +13303,38 @@ textarea.w-select {
   }
 
   .remove1pointdiv {
-    width: 84%;
+    width: 100%;
     display: none;
     top: 61%;
     right: 5%;
   }
 
   .remove2pointdiv {
-    width: 80%;
+    width: 100%;
     top: 56%;
     left: 11%;
   }
 
   .remove3pointdiv {
-    width: 90%;
+    width: 100%;
     top: 59%;
     left: 5%;
   }
 
   .remove4pointdiv {
-    width: 90%;
+    width: 100%;
     top: 60%;
     right: 5%;
   }
 
   .remove5pointdiv {
-    width: 85%;
+    width: 100%;
     top: 58%;
     left: 7%;
   }
 
   .remove6pointdiv {
-    width: 95%;
+    width: 100%;
     top: 56%;
     right: 2%;
   }
@@ -12760,43 +13370,43 @@ textarea.w-select {
   }
 
   .benefits1pointdiv {
-    width: 80%;
+    width: 100%;
     display: none;
     top: 59%;
   }
 
   .benefits2pointdiv {
-    width: 80%;
+    width: 100%;
     top: 55%;
     left: 9%;
   }
 
   .benefits3pointdiv {
-    width: 87%;
+    width: 100%;
     top: 54%;
     right: 6%;
   }
 
   .benefits4pointdiv {
-    width: 80%;
+    width: 100%;
     top: 55%;
     left: 9%;
   }
 
   .benefits5pointdiv {
-    width: 80%;
+    width: 100%;
     top: 55%;
     right: 8%;
   }
 
   .benefits6pointdiv {
-    width: 80%;
+    width: 100%;
     top: 55%;
     left: 11%;
   }
 
   .conclusionoaktreediv2 {
-    width: 90%;
+    width: 100%;
     left: 5%;
   }
 
@@ -12934,17 +13544,19 @@ textarea.w-select {
 
   .left-arrow-2 {
     bottom: 3%;
-    left: 25%;
+    left: 32%;
   }
 
   .right-arrow-2 {
     bottom: 3%;
-    left: 44%;
+    left: 45%;
   }
 
   .heading-85 {
+    color: #000;
     text-align: center;
     margin-left: 0;
+    font-size: 30px;
   }
 
   .forgotbtn {
@@ -12976,13 +13588,84 @@ textarea.w-select {
   }
 
   .section-23 {
-    height: 6300px;
+    height: 4300px;
     overflow: hidden;
   }
 
   .collection-list-3 {
     column-count: 1;
   }
+
+  .heading-88 {
+    font-size: 30px;
+  }
+
+  .image-43 {
+    height: 200px;
+  }
+
+  .membersliderblock {
+    display: none;
+  }
+
+  .oaktreesectionpage {
+    background-image: linear-gradient(#00000080, #00000080),
+      url("https://cdn.prod.website-files.com/66b31c87a9bec205c07cf449/66e451a8173e69e99f3940df_oak-tree-in-full-leaf-standing-alone-in-a-field-in-summer-against-a-white-background-1024x683.jpg");
+    background-position: 0 0, 50%;
+    background-size: auto, cover;
+    height: 3000px;
+  }
+
+  .palmtreesectionpage {
+    height: 1100px;
+  }
+
+  .slider-3 {
+    height: 1300px;
+  }
+
+  .left-arrow-3 {
+    top: 5%;
+    right: 50%;
+  }
+
+  .right-arrow-3 {
+    top: 5%;
+    right: 20%;
+  }
+}
+
+#w-node-_037844f7-8410-455d-e89f-668428f2926f-77f57f0d {
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_037844f7-8410-455d-e89f-668428f29282-77f57f0d {
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr;
+}
+
+#w-node-_037844f7-8410-455d-e89f-668428f29285-77f57f0d,
+#w-node-_037844f7-8410-455d-e89f-668428f2928d-77f57f0d,
+#w-node-_037844f7-8410-455d-e89f-668428f29295-77f57f0d {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}
+
+#w-node-_037844f7-8410-455d-e89f-668428f2929e-77f57f0d {
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr;
+}
+
+#w-node-_037844f7-8410-455d-e89f-668428f292a1-77f57f0d,
+#w-node-_037844f7-8410-455d-e89f-668428f292a9-77f57f0d,
+#w-node-_037844f7-8410-455d-e89f-668428f292b1-77f57f0d {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}
+
+#w-node-_2d19575e-c0f3-f17b-d7de-f65895f4438e-77f57f0d {
+  grid-column: span 2 / span 2;
 }
 
 #w-node-_7e92584b-d3be-ebd0-3c0e-f27b8e1a423e-8e1a423c {
@@ -12995,33 +13678,41 @@ textarea.w-select {
   grid-column: span 3 / span 3;
 }
 
-#w-node-ab00db80-e7a4-ecd4-2c5b-c315571feaa0-571fea9c {
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-}
-
-#w-node-ab00db80-e7a4-ecd4-2c5b-c315571feaae-571fea9c {
-  grid-template-rows: auto auto auto;
-  grid-template-columns: 1fr;
-}
-
-#w-node-ab00db80-e7a4-ecd4-2c5b-c315571feab1-571fea9c,
-#w-node-ab00db80-e7a4-ecd4-2c5b-c315571feab9-571fea9c,
-#w-node-ab00db80-e7a4-ecd4-2c5b-c315571feac1-571fea9c {
-  grid-template-rows: auto;
-  grid-template-columns: 1fr;
-}
-
-#w-node-ab00db80-e7a4-ecd4-2c5b-c315571feacb-571fea9c {
-  grid-column: span 2 / span 2;
-}
-
-#w-node-_9439ae98-0221-e8f6-ad3c-cd4ea51f1576-c2fbfb67 {
-  grid-template-rows: auto auto auto auto;
-  grid-template-columns: 1fr;
-}
-
 @media screen and (max-width: 991px) {
+  #w-node-_037844f7-8410-455d-e89f-668428f29270-77f57f0d,
+  #w-node-_037844f7-8410-455d-e89f-668428f2927c-77f57f0d {
+    grid-column: span 2 / span 2;
+  }
+
+  #w-node-_037844f7-8410-455d-e89f-668428f29282-77f57f0d {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #w-node-_037844f7-8410-455d-e89f-668428f29283-77f57f0d {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+  }
+
+  #w-node-_037844f7-8410-455d-e89f-668428f2928b-77f57f0d,
+  #w-node-_037844f7-8410-455d-e89f-668428f29293-77f57f0d {
+    grid-column: span 2 / span 2;
+  }
+
+  #w-node-_037844f7-8410-455d-e89f-668428f2929e-77f57f0d {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #w-node-_037844f7-8410-455d-e89f-668428f2929f-77f57f0d {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+  }
+
+  #w-node-_037844f7-8410-455d-e89f-668428f292a7-77f57f0d,
+  #w-node-_037844f7-8410-455d-e89f-668428f292af-77f57f0d,
+  #w-node-_2d19575e-c0f3-f17b-d7de-f65895f4438e-77f57f0d {
+    grid-column: span 2 / span 2;
+  }
+
   #w-node-_7e92584b-d3be-ebd0-3c0e-f27b8e1a423f-8e1a423c {
     grid-column: span 3 / span 3;
   }
@@ -13030,74 +13721,60 @@ textarea.w-select {
   #w-node-_7e92584b-d3be-ebd0-3c0e-f27b8e1a424e-8e1a423c {
     grid-area: span 1 / span 3 / span 1 / span 3;
   }
-
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feaa1-571fea9c,
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feaad-571fea9c {
-    grid-column: span 2 / span 2;
-  }
-
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feaae-571fea9c {
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feaaf-571fea9c {
-    grid-area: span 1 / span 1 / span 1 / span 1;
-  }
-
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feabf-571fea9c,
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feacb-571fea9c {
-    grid-column: span 2 / span 2;
-  }
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feaa1-571fea9c {
+  #w-node-_037844f7-8410-455d-e89f-668428f29270-77f57f0d {
     grid-column: span 2 / span 2;
   }
 
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feaad-571fea9c {
+  #w-node-_037844f7-8410-455d-e89f-668428f2927c-77f57f0d {
     grid-area: span 1 / span 2 / span 1 / span 2;
   }
 
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feaae-571fea9c {
+  #w-node-_037844f7-8410-455d-e89f-668428f29282-77f57f0d {
     grid-template-rows: auto;
     grid-template-columns: 1fr;
   }
 
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feab7-571fea9c {
-    grid-column: span 1 / span 1;
+  #w-node-_037844f7-8410-455d-e89f-668428f2928b-77f57f0d {
+    grid-column: span 2 / span 2;
   }
 
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feacb-571fea9c {
+  #w-node-_037844f7-8410-455d-e89f-668428f2929e-77f57f0d {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+  }
+
+  #w-node-_037844f7-8410-455d-e89f-668428f292a7-77f57f0d,
+  #w-node-_2d19575e-c0f3-f17b-d7de-f65895f4438e-77f57f0d {
     grid-column: span 2 / span 2;
   }
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feaaf-571fea9c {
+  #w-node-_037844f7-8410-455d-e89f-668428f29283-77f57f0d {
     grid-column: span 2 / span 2;
   }
 
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feab1-571fea9c {
+  #w-node-_037844f7-8410-455d-e89f-668428f29285-77f57f0d {
     grid-template-rows: auto;
     grid-template-columns: 1fr;
   }
 
-  #w-node-ab00db80-e7a4-ecd4-2c5b-c315571feab7-571fea9c {
+  #w-node-_037844f7-8410-455d-e89f-668428f2928b-77f57f0d,
+  #w-node-_037844f7-8410-455d-e89f-668428f2929f-77f57f0d {
     grid-column: span 2 / span 2;
   }
 
-  #w-node-a5120b2a-5611-5cd0-d734-46748a3b20d0-c2fbfb67 {
-    order: 0;
+  #w-node-_037844f7-8410-455d-e89f-668428f292a1-77f57f0d {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+  }
+
+  #w-node-_037844f7-8410-455d-e89f-668428f292a7-77f57f0d {
+    grid-column: span 2 / span 2;
   }
 }
 
-@font-face {
-  font-family: "Rubik";
-  src: url("https://cdn.prod.website-files.com/66b31c87a9bec205c07cf449/66d8b8cf5b7e5f2926031a66_Rubik.zip")
-    format("undefined");
-  font-weight: 400;
-  font-style: normal;
-  font-display: auto;
-}
+
